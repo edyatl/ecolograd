@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ecologra/public_html/alpha
+    - /bin/rm -rf ${DEPLOYPATH}/*
     - /bin/cp -r /home/ecologra/repositories/ecolograd/public/* $DEPLOYPATH
