@@ -1,0 +1,141 @@
+######################## default configuration ####################
+baseURL = "https://ecolograd.ru/"
+languageCode = "ru"
+title = "ecolograd.ru"
+theme = "hargo"
+summaryLength = "20"
+paginate = 10
+disqusShortname = "ecolograd"
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  link = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  link = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  link = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  link = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  link = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  link = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  link = "plugins/google-map/gmap.js"
+
+
+############################## navigation ###############################
+[menu]
+
+  [[menu.main]]
+  name = "Продукция"
+  URL = "products"
+  weight = 1
+
+  [[menu.main]]
+  name = "Статьи"
+  URL = "blog"
+  weight = 2
+
+  [[menu.main]]
+  name = "Вопрос-ответ"
+  URL = "faq"
+  weight = 3
+
+  [[menu.main]]
+  name = "Контакты"
+  URL = "contact"
+  weight = 4
+
+  ############# footer menu #############
+  [[menu.footer]]
+  name = "Продукция"
+  URL = "products"
+  weight = 1
+
+  [[menu.footer]]
+  name = "Статьи"
+  URL = "blog"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Вопрос-ответ"
+  URL = "faq"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Условия"
+  URL = "terms-conditions"
+  weight = 4
+
+  [[menu.footer]]
+  name = "Контакты"
+  URL = "contact"
+  weight = 5
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Главная"
+# Meta data
+description = "Переработка полимерных материалов"
+author = "@edyatl"
+# google map
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+mapLatitude = "59.721453312121554"
+mapLongitude = "30.428555980500033"
+mapMarker = "images/marker.png"
+# Google Analitycs
+googleAnalitycsID = "" # Your ID
+# Contact Information
+mobile = "+7 812 385 81 83"
+email = "info@ecolograd.ru"
+location = "Санкт-Петербург, г. Пушкин ул. Новодеревенская, д.4., пом. 2-Н, офис-1"
+# copyright
+copyright = "| Copyright &copy; 2021 [AlfaPlast LLC](https://ecologard.ru) All Rights Reserved | Design [@edyatl](https://github.com/edyatl) |"
+# Snipcart Credentials
+snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
+currencySymbol = "₽"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # Product Rating
+  # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
+  [params.rating]
+  enable = true
+  websiteID = "444334"
+  publicKey = "811cf0927332bf51f2e12f84608594ac"
+
+  # Social Site
+  [[params.social]]
+  icon = "ti-facebook"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-youtube"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-instagram"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-pinterest"
+  link = "#"
+
+  # Contact Form
+  [params.contact]
+  formAction = "#" # contact form works with formspree.io
