@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://ecolograd.ru.fozzyhost.com/alpha/"
+baseURL = "https://ecolograd.ru/alpha/"
 languageCode = "ru"
 title = "ecolograd.ru"
 theme = "hargo"
