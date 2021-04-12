@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://ecolograd.ru/alpha/"
+baseURL = "/"
 languageCode = "ru"
 title = "ecolograd.ru"
 theme = "hargo"
@@ -17,6 +17,8 @@ disqusShortname = "ecolograd"
   link = "plugins/slick/slick.css"
   [[params.plugins.css]]
   link = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  link = "plugins/fontawesome/css/all.min.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -96,7 +98,7 @@ googleAnalitycsID = "" # Your ID
 # Contact Information
 mobile = "+7 812 385 81 83"
 email = "info@ecolograd.ru"
-location = "Санкт-Петербург, г. Пушкин ул. Новодеревенская, д.4., пом. 2-Н, офис-1"
+location = "Санкт-Петербург, г. Пушкин, Новодеревенская улица, дом 4, литер А, помещение 2-Н, офис 1"
 # copyright
 copyright = "| Copyright &copy; 2021 [AlfaPlast LLC](https://ecologard.ru) All Rights Reserved | Design [@edyatl](https://github.com/edyatl) |"
 # Snipcart Credentials
@@ -117,23 +119,17 @@ currencySymbol = "₽"
 
   # Social Site
   [[params.social]]
-  icon = "ti-facebook"
-  link = "#"
-
-  [[params.social]]
-  icon = "ti-twitter-alt"
-  link = "#"
-
-  [[params.social]]
+  #icon = "ti-youtube"
   icon = "ti-youtube"
   link = "#"
 
   [[params.social]]
+  #icon = "ti-instagram"
   icon = "ti-instagram"
   link = "#"
 
   [[params.social]]
-  icon = "ti-pinterest"
+  icon = "fab fa-vk"
   link = "#"
 
   # Contact Form
