@@ -6,7 +6,16 @@
     <description>Recent content on ecolograd.ru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Mon, 12 Apr 2021 21:59:41 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Apr 2021 10:16:50 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Пластик: утилизация или переработка?</title>
+      <link>/blog/2021-04-13-plastik-utilizacia-ili-pererabotka/</link>
+      <pubDate>Tue, 13 Apr 2021 10:16:50 +0000</pubDate>
+      
+      <guid>/blog/2021-04-13-plastik-utilizacia-ili-pererabotka/</guid>
+      <description>Знаете ли вы, что человек оставляет после себя 200-300 кг мусора в год? Несортированные отходы гниют на мусорных полигонах долгие десятилетия, создавая угрозу для всей окружающей среды.</description>
+    </item>
+    
     <item>
       <title>Вторсырьё: что это такое, куда сдать и как переработать</title>
       <link>/blog/post-5/</link>
@@ -59,24 +68,6 @@
       
       <guid>/products/product-aglomerat_pvd/</guid>
       <description>Агломерат ПВД собсвенного производства из отходов складского хранения (плёнка стрейч). Материал отличного качества. Безнал с НДС. Возможны различные формы оплаты. Санкт-Петербург.</description>
-    </item>
-    
-    <item>
-      <title>Human Gut Microbes Could Make Processed Foods Healthier</title>
-      <link>/blog/post-2/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>/blog/post-2/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
-    <item>
-      <title>Lower Back Pain? Self-Administered Acupressure Could Help</title>
-      <link>/blog/post-1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      
-      <guid>/blog/post-1/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
   </channel>
