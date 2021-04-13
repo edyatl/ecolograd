@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "./"
 languageCode = "ru"
 title = "ecolograd.ru"
 theme = "hargo"
