@@ -8,9 +8,9 @@ public_folder: "/images/uploads"
 collections: # A list of collections the CMS should be able to edit
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Posts" # Used in the UI, ie.: "New Post"
-    #label_singular: "Post" # Used in the UI, ie: "New Post"
-    #description: >
-      #Добавление и редактирование в разделе Статьи.
+    label_singular: "Post" # Used in the UI, ie: "New Post"
+    description: >
+      Добавление и редактирование в разделе Статьи.
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
