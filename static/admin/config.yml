@@ -45,7 +45,5 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Cover Photos"
         name: "images"
         widget: "list"
-        fields: 
-          - {label: "Image", name: "image", widget: "image"}
-
+        field: {label: "Image", name: "image", widget: "image"}
       - { label: "Body", name: "body", widget: "markdown"  }
