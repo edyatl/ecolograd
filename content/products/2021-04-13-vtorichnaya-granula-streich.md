@@ -4,8 +4,8 @@ title: Вторичная гранула стрейч
 date: 2021-04-13T14:27:30.206Z
 draft: false
 description: Вторичная гранула стрейч, цвет прозрачный
-price: 71
-priceBefore: 81
+price: "71.00"
+priceBefore: "81.00"
 shortDescription: Вторичная гранула стрейч, цвет прозрачный
 productID: 16
 type: products
