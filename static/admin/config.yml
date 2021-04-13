@@ -10,7 +10,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Posts" # Used in the UI, ie.: "New Post"
     label_singular: "Post" # Used in the UI, ie: "New Post"
     description: >
-        Добавление и редактирование в разделе Статьи
+      Добавление и редактирование в разделе Статьи.
     folder: "content/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Products" # Used in the UI, ie.: "New Post"
     label_singular: "Product" # Used in the UI, ie: "New Post"
     description: >
-        Добавление и редактирование в разделе Продукция
+      Добавление и редактирование в разделе Продукция.
     folder: "content/products" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
@@ -46,4 +46,5 @@ collections: # A list of collections the CMS should be able to edit
         name: "images"
         widget: "list"
         field: {label: "Image", name: "image", widget: "image"}
+
       - { label: "Body", name: "body", widget: "markdown"  }
