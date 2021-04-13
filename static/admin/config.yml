@@ -36,5 +36,5 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "ShortDescription", name: "shortDescription", widget: "text"  }
       - { label: "ProductID", name: "productID", widget: "number", value_type: "int"  }
       - { label: "Type", name: "type", widget: "hidden", default: "products"  }
-      - { label: "Photos", name: "images", widget: "list", summary: '{{fields.image}}', field: {label: "Image", name: "image", widget: "image"}  }
+      - { label: "Photos", name: "images", widget: "list", summary: '{{fields.image}}', fields: {label: "Image", name: "image", widget: "image"}  }
       - { label: "Body", name: "body", widget: "markdown"  }
