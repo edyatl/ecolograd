@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Статьи on ecolograd.ru</title>
-    <link>https://ecolograd.ru/alpha/blog/</link>
+    <link>/blog/</link>
     <description>Recent content in Статьи on ecolograd.ru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate><atom:link href="https://ecolograd.ru/alpha/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Вторсырьё: что это такое, куда сдать и как переработать</title>
-      <link>https://ecolograd.ru/alpha/blog/post-5/</link>
+      <link>/blog/post-5/</link>
       <pubDate>Mon, 12 Apr 2021 21:59:41 +0000</pubDate>
       
-      <guid>https://ecolograd.ru/alpha/blog/post-5/</guid>
+      <guid>/blog/post-5/</guid>
       <description>Любая жизнедеятельность человека неизбежно сопровождается образованием различных отходов. Часть из них, которая допускает возможность переработки с целью уничтожения или повторного использования, называется вторсырьём.</description>
     </item>
     
     <item>
       <title>Human Gut Microbes Could Make Processed Foods Healthier</title>
-      <link>https://ecolograd.ru/alpha/blog/post-2/</link>
+      <link>/blog/post-2/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
       
-      <guid>https://ecolograd.ru/alpha/blog/post-2/</guid>
+      <guid>/blog/post-2/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
     <item>
       <title>Lower Back Pain? Self-Administered Acupressure Could Help</title>
-      <link>https://ecolograd.ru/alpha/blog/post-1/</link>
+      <link>/blog/post-1/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
       
-      <guid>https://ecolograd.ru/alpha/blog/post-1/</guid>
+      <guid>/blog/post-1/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     

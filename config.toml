@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://ecolograd.ru/alpha/"
+baseURL = "/"
 languageCode = "ru"
 title = "ecolograd.ru"
 theme = "hargo"
