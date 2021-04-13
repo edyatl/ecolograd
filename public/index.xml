@@ -2,71 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ecolograd.ru</title>
-    <link>/</link>
+    <link>https://ecolograd.ru/alpha/</link>
     <description>Recent content on ecolograd.ru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Thu, 01 Apr 2021 16:03:24 +0300</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Apr 2021 21:59:41 +0000</lastBuildDate><atom:link href="https://ecolograd.ru/alpha/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Вторсырьё: что это такое, куда сдать и как переработать</title>
+      <link>https://ecolograd.ru/alpha/blog/post-5/</link>
+      <pubDate>Mon, 12 Apr 2021 21:59:41 +0000</pubDate>
+      
+      <guid>https://ecolograd.ru/alpha/blog/post-5/</guid>
+      <description>Любая жизнедеятельность человека неизбежно сопровождается образованием различных отходов. Часть из них, которая допускает возможность переработки с целью уничтожения или повторного использования, называется вторсырьём.</description>
+    </item>
+    
     <item>
       <title>Полипропилен ПТР 6 чёрный</title>
-      <link>/products/product-polipropilen_ptr6_cherniy/</link>
+      <link>https://ecolograd.ru/alpha/products/product-polipropilen_ptr6_cherniy/</link>
       <pubDate>Thu, 01 Apr 2021 16:03:24 +0300</pubDate>
       
-      <guid>/products/product-polipropilen_ptr6_cherniy/</guid>
+      <guid>https://ecolograd.ru/alpha/products/product-polipropilen_ptr6_cherniy/</guid>
       <description>Полипропилен литьевой дробленка, цвет черный, ПТР 6. Дробленые изделия одного производителя, стабильное качество материала. В месяц 5т.</description>
     </item>
     
     <item>
       <title>Полипропилен ПТР 3 серый</title>
-      <link>/products/product-polipropilen_ptr3_seriy/</link>
+      <link>https://ecolograd.ru/alpha/products/product-polipropilen_ptr3_seriy/</link>
       <pubDate>Thu, 01 Apr 2021 16:01:59 +0300</pubDate>
       
-      <guid>/products/product-polipropilen_ptr3_seriy/</guid>
+      <guid>https://ecolograd.ru/alpha/products/product-polipropilen_ptr3_seriy/</guid>
       <description>Полипропилен дробленка, ПТР 3, цвет серый. В наличии.</description>
     </item>
     
     <item>
       <title>Полистирол ударопрочный</title>
-      <link>/products/product-polistirol_udaroprochniy/</link>
+      <link>https://ecolograd.ru/alpha/products/product-polistirol_udaroprochniy/</link>
       <pubDate>Thu, 01 Apr 2021 16:00:38 +0300</pubDate>
       
-      <guid>/products/product-polistirol_udaroprochniy/</guid>
+      <guid>https://ecolograd.ru/alpha/products/product-polistirol_udaroprochniy/</guid>
       <description>Полистирол ударопрочный экструзионный, дробленка цвет микс.</description>
     </item>
     
     <item>
       <title>Полистирол ударопрочный УПС 825</title>
-      <link>/products/product-polistirol_udaroprochniy_ups_825/</link>
+      <link>https://ecolograd.ru/alpha/products/product-polistirol_udaroprochniy_ups_825/</link>
       <pubDate>Thu, 01 Apr 2021 15:56:52 +0300</pubDate>
       
-      <guid>/products/product-polistirol_udaroprochniy_ups_825/</guid>
+      <guid>https://ecolograd.ru/alpha/products/product-polistirol_udaroprochniy_ups_825/</guid>
       <description>Полистирол ударопрочный УПС 825, вторичка. Дробленка, литье и экструзия.</description>
     </item>
     
     <item>
       <title>Агломерат ПВД</title>
-      <link>/products/product-aglomerat_pvd/</link>
+      <link>https://ecolograd.ru/alpha/products/product-aglomerat_pvd/</link>
       <pubDate>Thu, 01 Apr 2021 12:56:35 +0300</pubDate>
       
-      <guid>/products/product-aglomerat_pvd/</guid>
+      <guid>https://ecolograd.ru/alpha/products/product-aglomerat_pvd/</guid>
       <description>Агломерат ПВД собсвенного производства из отходов складского хранения (плёнка стрейч). Материал отличного качества. Безнал с НДС. Возможны различные формы оплаты. Санкт-Петербург.</description>
     </item>
     
     <item>
       <title>Human Gut Microbes Could Make Processed Foods Healthier</title>
-      <link>/blog/post-2/</link>
+      <link>https://ecolograd.ru/alpha/blog/post-2/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
       
-      <guid>/blog/post-2/</guid>
+      <guid>https://ecolograd.ru/alpha/blog/post-2/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
     <item>
       <title>Lower Back Pain? Self-Administered Acupressure Could Help</title>
-      <link>/blog/post-1/</link>
+      <link>https://ecolograd.ru/alpha/blog/post-1/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
       
-      <guid>/blog/post-1/</guid>
+      <guid>https://ecolograd.ru/alpha/blog/post-1/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     
