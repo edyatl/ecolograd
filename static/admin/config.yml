@@ -15,7 +15,25 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "File name", name: "fname", widget: "string"  }
       - { label: "Title", name: "title", widget: "string"  }
       - { label: "Publish Date", name: "date", widget: "datetime"  }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false  }
       - { label: "Description", name: "description", widget: "text"  }
       - { label: "Photo", name: "image", widget: "image"  }
       - { label: "Author", name: "author", widget: "string"  }
+      - { label: "Body", name: "body", widget: "markdown"  }
+  - name: "products" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Products" # Used in the UI, ie.: "New Post"
+    folder: "content/products" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
+    fields: # The fields each document in this collection have
+      - { label: "File name", name: "fname", widget: "string"  }
+      - { label: "Title", name: "title", widget: "string"  }
+      - { label: "Publish Date", name: "date", widget: "datetime"  }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+      - { label: "Description", name: "description", widget: "text"  }
+      - { label: "Price", name: "price", widget: "number", value_type: "str"  }
+      - { label: "PriceBefore", name: "priceBefore", widget: "number", value_type: "str"  }
+      - { label: "ProductID", name: "productID", widget: "number", value_type: "int"  }
+      - { label: "Type", name: "type", widget: "hidden", default: "products"  }
+      - { label: "Photos", name: "images", widget: "list", summary: '{{fields.image}}', field: {label: Image, name: image, widget: image}  }
       - { label: "Body", name: "body", widget: "markdown"  }
