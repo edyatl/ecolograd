@@ -28,7 +28,7 @@ jobs:
           #external_repository: <username>/<username>.github.io
           publish_dir: ./public
           #   keep_files: true
-          user_name: edyatl
-          user_email: edyatl@yandex.ru
-          publish_branch: master
+          #user_name: edyatl
+          #user_email: edyatl@yandex.ru
+          #publish_branch: master
           #   cname: example.com
