@@ -48,3 +48,31 @@ collections: # A list of collections the CMS should be able to edit
         fields: 
           - {label: "Image", name: "image", widget: "image"}
       - { label: "Body", name: "body", widget: "markdown"  }
+  - name: "faq" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "FAQ" # Used in the UI, ie.: "New Post"
+    #label_singular: "Post" # Used in the UI, ie: "New Post"
+    description: >
+      Добавление и редактирование в разделе Вопрос-Ответ.
+    delete: false # Prevent users from deleting documents in this collection
+    files: 
+      - label: "FAQ Intro"
+        name: "faq_indx_pg"
+        file: "content/faq/_index.md"
+        description: "Title and intro of FAQ"
+        fields:
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
+          - { label: "Body", name: "body", widget: "markdown"  }
+      - label: "FAQ Items"
+        name: "faq_data"
+        file: "data/faq.yml"
+        description: "List of FAQ items"
+        fields:
+          - label: "FAQ Data"
+            name: "faqItem"
+            widget: "list"
+            fields: 
+              - { label: "Question", name: "title", widget: "text"  }
+              - { label: "Answer", name: "content", widget: "text"  }
