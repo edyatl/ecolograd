@@ -1,4 +1,6 @@
 ---
+fname: 
+cmsedit: true
 title: "Агломерат ПВД"
 date: 2021-04-01T12:56:35+03:00
 draft: false

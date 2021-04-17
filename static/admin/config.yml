@@ -17,6 +17,7 @@ collections: # A list of collections the CMS should be able to edit
     slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
     fields: # The fields each document in this collection have
       - { label: "File name", name: "fname", widget: "string"  }
+      - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
       - { label: "Title", name: "title", widget: "string"  }
       - { label: "Publish Date", name: "date", widget: "datetime"  }
       - { label: "Draft", name: "draft", widget: "boolean", default: false  }
@@ -31,9 +32,11 @@ collections: # A list of collections the CMS should be able to edit
       Добавление и редактирование в разделе Продукция.
     folder: "content/products" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    filter: {field: "cmsedit", value: true}
     slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
     fields: # The fields each document in this collection have
       - { label: "File name", name: "fname", widget: "string"  }
+      - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
       - { label: "Title", name: "title", widget: "string"  }
       - { label: "Publish Date", name: "date", widget: "datetime"  }
       - { label: "Draft", name: "draft", widget: "boolean", default: false  }

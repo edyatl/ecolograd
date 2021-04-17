@@ -1,4 +1,6 @@
 ---
+fname: 
+cmsedit: true
 title: "Полипропилен ПТР 6 чёрный"
 date: 2021-04-01T16:03:24+03:00
 draft: false

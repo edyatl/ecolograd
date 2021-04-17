@@ -1,5 +1,6 @@
 ---
 fname: vtorichnaya-granula-streich
+cmsedit: true
 title: Вторичная гранула стрейч
 date: 2021-04-13T14:27:30.206Z
 draft: false

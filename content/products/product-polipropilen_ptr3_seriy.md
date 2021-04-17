@@ -1,4 +1,6 @@
 ---
+fname: 
+cmsedit: true
 title: "Полипропилен ПТР 3 серый"
 date: 2021-04-01T16:01:59+03:00
 draft: false
