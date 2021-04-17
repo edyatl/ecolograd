@@ -1,5 +1,6 @@
 ---
 fname: plastik-utilizacia-ili-pererabotka
+cmsedit: true
 title: "Пластик: утилизация или переработка?"
 date: 2021-04-13T10:16:50.237Z
 description: Знаете ли вы, что человек оставляет после себя 200-300 кг мусора в
