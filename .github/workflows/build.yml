@@ -1,6 +1,8 @@
 name: CI
 on:
   push:
+    paths-ignore:
+      - 'public/**'
     branches:
       - master
 jobs:
