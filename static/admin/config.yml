@@ -97,11 +97,12 @@ collections: # A list of collections the CMS should be able to edit
         file: "data/contact.yml"
         description: "Contact settings and working time"
         fields:
-          #- label: "Contact settings"
-            #name: "contact"
-            #widget: "list"
-            #fields: 
-              #- { label: "Enable", name: "enable", widget: "boolean", default: true  }
+          - label: "Contact settings"
+            name: "contact"
+            widget: "list"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", default: true  }
               #- label: "Office"
                 #name: "office"
                 #widget: "list"
