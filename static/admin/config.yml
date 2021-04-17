@@ -122,4 +122,5 @@ collections: # A list of collections the CMS should be able to edit
           - label: "Map widget"
             name: "map"
             widget: "list"
+            allow_add: false
             field: { label: "Enable", name: "enable", widget: "boolean", default: true  }
