@@ -109,16 +109,16 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - { label: "OfficeTitle", name: "title", widget: "string"  }
                   - { label: "OfficeIntro", name: "content", widget: "text"  }
-              #- label: "Open"
-                #name: "opennigHour"
-                #widget: "list" 
-                #fields:
-                  #- { label: "Intro", name: "title", widget: "string"  }
-                  #- label: "Working time"
-                    #name: "dayTimeList"
-                    #widget: "list" 
-                    #fields:
-                      #- { label: "Day", name: "dayTime", widget: "string"  }
+              - label: "Open"
+                name: "opennigHour"
+                widget: "object" 
+                fields:
+                  - { label: "Intro", name: "title", widget: "string"  }
+                  - label: "WorkingTime"
+                    name: "dayTimeList"
+                    widget: "list" 
+                    fields:
+                      - { label: "Day", name: "dayTime", widget: "string"  }
 
           - label: "Map widget"
             name: "map"
