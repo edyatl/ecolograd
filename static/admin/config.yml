@@ -80,7 +80,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Contact" # Used in the UI, ie.: "New Post"
     #label_singular: "Post" # Used in the UI, ie: "New Post"
     description: >
-      Добавление и редактирование в разделе Контакты.
+      Редактирование в разделе Контакты.
     delete: false # Prevent users from deleting documents in this collection
     files: 
       - label: "Conact page title"
@@ -97,27 +97,27 @@ collections: # A list of collections the CMS should be able to edit
         file: "data/contact.yml"
         description: "Contact settings and working time"
         fields:
-          - label: "Contact settings"
-            name: "contact"
-            widget: "list"
-            fields: 
-              - { label: "Enable", name: "enable", widget: "boolean", default: true  }
-              - label: "Office"
-                name: "office"
-                widget: "list"
-                fields:
-                  - { label: "Office name", name: "title", widget: "string"  }
-                  - { label: "Office intro", name: "content", widget: "text"  }
-              - label: "Open"
-                name: "opennigHour"
-                widget: "list" 
-                fields:
-                  - { label: "Intro", name: "title", widget: "string"  }
-                  - label: "Working time"
-                    name: "dayTimeList"
-                    widget: "list" 
-                    fields:
-                      - { label: "Day", name: "dayTime", widget: "string"  }
+          #- label: "Contact settings"
+            #name: "contact"
+            #widget: "list"
+            #fields: 
+              #- { label: "Enable", name: "enable", widget: "boolean", default: true  }
+              #- label: "Office"
+                #name: "office"
+                #widget: "list"
+                #fields:
+                  #- { label: "Office name", name: "title", widget: "string"  }
+                  #- { label: "Office intro", name: "content", widget: "text"  }
+              #- label: "Open"
+                #name: "opennigHour"
+                #widget: "list" 
+                #fields:
+                  #- { label: "Intro", name: "title", widget: "string"  }
+                  #- label: "Working time"
+                    #name: "dayTimeList"
+                    #widget: "list" 
+                    #fields:
+                      #- { label: "Day", name: "dayTime", widget: "string"  }
 
           - label: "Map widget"
             name: "map"
