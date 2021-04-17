@@ -103,12 +103,12 @@ collections: # A list of collections the CMS should be able to edit
             allow_add: false
             fields: 
               - { label: "Enable", name: "enable", widget: "boolean", default: true, required: false  }
-              #- label: "Office"
-                #name: "office"
-                #widget: "list"
-                #fields:
-                  #- { label: "Office Title", name: "title", widget: "string"  }
-                  #- { label: "Office Intro", name: "content", widget: "text"  }
+              - label: "Office"
+                name: "office"
+                widget: "object"
+                fields:
+                  - { label: "OfficeTitle", name: "title", widget: "string"  }
+                  - { label: "OfficeIntro", name: "content", widget: "text"  }
               #- label: "Open"
                 #name: "opennigHour"
                 #widget: "list" 
