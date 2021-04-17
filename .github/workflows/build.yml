@@ -37,5 +37,5 @@ jobs:
           user_name: edyatl
           user_email: edyatl@yandex.ru
           publish_branch: master
-          commit_message: ${{ github.event.head_commit.message  }} '[skip netlify]'
+          commit_message: Deploy: ${{ github.event.head_commit.message  }} [skip netlify]
           #   cname: example.com
