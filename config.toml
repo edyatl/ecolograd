@@ -72,7 +72,7 @@ disqusShortname = "ecolograd"
 
   [[menu.footer]]
   name = "Реквизиты"
-  URL = "terms-conditions"
+  URL = "requisites"
   weight = 4
 
   [[menu.footer]]
