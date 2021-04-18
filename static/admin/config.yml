@@ -103,7 +103,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - label: "Contact settings"
             name: "contact"
-            widget: "list"
+            widget: "object"
             allow_add: false
             fields: 
               - { label: "Enable", name: "enable", widget: "boolean", default: true, required: false  }
