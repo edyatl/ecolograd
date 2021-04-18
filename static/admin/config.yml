@@ -80,8 +80,8 @@ collections: # A list of collections the CMS should be able to edit
             fields: 
               - { label: "Question", name: "title", widget: "text"  }
               - { label: "Answer", name: "content", widget: "text"  }
-  - name: "contact" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Contact" # Used in the UI, ie.: "New Post"
+  - name: "contacts" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Contacts" # Used in the UI, ie.: "New Post"
     #label_singular: "Post" # Used in the UI, ie: "New Post"
     description: >
       Редактирование в разделе Контакты.
