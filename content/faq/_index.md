@@ -1,6 +1,6 @@
 ---
 title: Вопрос-Ответ
-date: 2019-10-17T11:22:16+06:00
+date: 2021-04-19T13:37:06.683Z
 draft: false
 description: this is a meta description
 ---
