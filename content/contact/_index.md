@@ -1,7 +1,6 @@
 ---
-title: "Контакты"
-date: 2019-10-17T11:22:16+06:00
+title: Контакты
+date: 2021-04-19T13:36:38.222Z
 draft: false
-description : "this is a meta description"
+description: this is a meta description
 ---
-
