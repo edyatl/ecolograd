@@ -120,15 +120,15 @@ collections: # A list of collections the CMS should be able to edit
                 name: "office"
                 widget: "object"
                 fields:
-                  - { label: "OfficeTitle", name: "title", widget: "string"  }
-                  - { label: "OfficeIntro", name: "content", widget: "text"  }
+                  - { label: "Office Title", name: "title", widget: "string"  }
+                  - { label: "Office Intro", name: "content", widget: "text"  }
 
               - label: "Open"
                 name: "opennigHour"
                 widget: "object" 
                 fields:
                   - { label: "Intro", name: "title", widget: "string"  }
-                  - label: "WorkingTime"
+                  - label: "Working Time"
                     name: "dayTimeList"
                     widget: "list" 
                     allow_add: false
@@ -140,4 +140,21 @@ collections: # A list of collections the CMS should be able to edit
             widget: "object"
             allow_add: false
             fields: 
-              - { label: "Enable", name: "enable", widget: "boolean", hint: "google map", default: true  }
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide google map", default: true  }
+  - name: "requisites" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Requisites" # Used in the UI, ie.: "New Post"
+    description: >
+      Редактирование в разделе Реквизиты.
+    delete: false # Prevent users from deleting documents in this collection
+    files: 
+      - label: "Requisites page"
+        name: "requisites_indx_pg"
+        file: "content/requisites/_index.md"
+        description: "Requisites page contetnt"
+        fields:
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
+          - { label: "Body", name: "body", widget: "markdown"  }
+
