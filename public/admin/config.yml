@@ -141,6 +141,8 @@ collections: # A list of collections the CMS should be able to edit
             allow_add: false
             fields: 
               - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide google map", default: true  }
+
+
   - name: "requisites" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Requisites" # Used in the UI, ie.: "New Post"
     description: >
@@ -158,3 +160,137 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Description", name: "description", widget: "text"  }
           - { label: "Body", name: "body", widget: "markdown"  }
 
+  - name: "homepage" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Homepage" # Used in the UI, ie.: "New Post"
+    description: >
+      Редактирование Главной страницы.
+    delete: false # Prevent users from deleting documents in this collection
+    files: 
+      - label: "Homepage Blocks"
+        name: "homepage_data"
+        file: "data/homepage.yml"
+        description: "Homepage blocks"
+        fields:
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide banner", default: true  }
+              - { label: "Title", name: "title", widget: "string"  }
+              - { label: "Intro", name: "content", widget: "text"  }
+              - { label: "Photo", name: "image", widget: "image"  }
+
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide button", default: true  }
+                  - { label: "Label", name: "label", widget: "string"  }
+                  - { label: "Link", name: "link", widget: "string"  }
+
+              - label: "Demo Video"
+                name: "video"
+                widget: "object" 
+                fields:
+                  - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide demo video", default: true  }
+                  - { label: "Video URL ", name: "videoURL ", widget: "string"  }
+
+          - label: "About"
+            name: "about"
+            widget: "object"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide about info", default: true  }
+              - { label: "Title", name: "title", widget: "string"  }
+              - { label: "Intro", name: "content", widget: "text"  }
+              - { label: "Photo", name: "image", widget: "image"  }
+
+          - label: "Call to action"
+            name: "cta"
+            widget: "object"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide call to action", default: true  }
+              - { label: "Title", name: "title", widget: "string"  }
+              - { label: "Intro", name: "content", widget: "text"  }
+              - { label: "Photo", name: "image", widget: "image"  }
+              - { label: "Overlay", name: "overlayImage", widget: "image"  }
+
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - { label: "Label", name: "label", widget: "string"  }
+                  - { label: "Link", name: "link", widget: "string"  }
+
+                    
+          - label: "Raw material"
+            name: "material"
+            widget: "object"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide naterial", default: true  }
+              - { label: "Title", name: "title", widget: "string"  }
+              - { label: "Intro", name: "subtitle", widget: "text"  }
+
+              - label: "Material Item"
+                name: "materialItem"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string"  }
+                  - { label: "Photo", name: "image", widget: "image"  }
+                  - { label: "Intro", name: "content", widget: "text"  }
+                    
+          - label: "Advantage"
+            name: "advantage"
+            widget: "object"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide advantage", default: true  }
+              - { label: "Title", name: "title", widget: "string"  }
+              - { label: "Intro", name: "subtitle", widget: "text"  }
+              - { label: "Photo", name: "image", widget: "image"  }
+
+              - label: "Advantage List"
+                name: "advantageList"
+                widget: "list"
+                fields:
+                  - { label: "Advantage Item", name: "listItem", widget: "string"  }
+
+          - label: "Promo Video"
+            name: "video"
+            widget: "object"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide Promo Video", default: true  }
+              - { label: "Title", name: "title", widget: "string"  }
+              - { label: "Intro", name: "content", widget: "text"  }
+              - { label: "Video Thumb", name: "videoThumb", widget: "image"  }
+              - { label: "Video URL", name: "videoURL", widget: "string"  }
+
+          - label: "Products"
+            name: "products"
+            widget: "object"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide Products", default: true  }
+              - { label: "Title", name: "title", widget: "string"  }
+
+          - label: "Testimonial"
+            name: "testimonial"
+            widget: "object"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide Testimonial", default: true  }
+              - { label: "Title", name: "title", widget: "string"  }
+
+              - label: "Testimonial Item"
+                name: "testimonialItem"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string"  }
+                  - { label: "Photo", name: "image", widget: "image", hint: "size 100x100 px"  }
+                  - { label: "Designation", name: "designation", widget: "string"  }
+                  - { label: "Intro", name: "content", widget: "text"  }
+                  - { label: "Rating", name: "rating", widget: "string", hint: "rating star, one to five"  }
