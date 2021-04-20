@@ -3,8 +3,8 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 
-media_folder: "static/images/uploads" # Folder where user uploaded files should go
-public_folder: "/images/uploads"
+media_folder: "static/images" # Folder where user uploaded files should go
+public_folder: "/images"
 
 
 collections: # A list of collections the CMS should be able to edit
@@ -17,6 +17,8 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     filter: {field: "cmsedit", value: true}
     slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
+    media_folder: "{{media_folder}}/blog"
+    public_folder: "{{public_folder}}/blog"
     fields: # The fields each document in this collection have
       - { label: "File name", name: "fname", widget: "string"  }
       - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
@@ -38,6 +40,8 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     filter: {field: "cmsedit", value: true}
     slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
+    media_folder: "{{media_folder}}/products"
+    public_folder: "{{public_folder}}/products"
     fields: # The fields each document in this collection have
       - { label: "File name", name: "fname", widget: "string"  }
       - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
@@ -165,12 +169,15 @@ collections: # A list of collections the CMS should be able to edit
     description: >
       Редактирование Главной страницы.
     delete: false # Prevent users from deleting documents in this collection
+    media_folder: "{{media_folder}}"
+    public_folder: "{{public_folder}}"
     files: 
       - label: "Homepage Blocks"
         name: "homepage_data"
         file: "data/homepage.yml"
         description: "Homepage blocks"
         fields:
+############################ banner ##########################
           - label: "Banner"
             name: "banner"
             widget: "object"
@@ -194,8 +201,9 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "object" 
                 fields:
                   - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide demo video", default: true  }
-                  - { label: "Video URL ", name: "videoURL ", widget: "string"  }
+                  - { label: "Video URL", name: "videoURL", widget: "string"  }
 
+########################## About ##############################
           - label: "About"
             name: "about"
             widget: "object"
@@ -206,6 +214,7 @@ collections: # A list of collections the CMS should be able to edit
               - { label: "Intro", name: "content", widget: "text"  }
               - { label: "Photo", name: "image", widget: "image"  }
 
+###################### Call to action ########################
           - label: "Call to action"
             name: "cta"
             widget: "object"
@@ -224,13 +233,13 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: "Label", name: "label", widget: "string"  }
                   - { label: "Link", name: "link", widget: "string"  }
 
-                    
+######################## raw material #######################
           - label: "Raw material"
             name: "material"
             widget: "object"
             allow_add: false
             fields: 
-              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide naterial", default: true  }
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide materials", default: true  }
               - { label: "Title", name: "title", widget: "string"  }
               - { label: "Intro", name: "subtitle", widget: "text"  }
 
@@ -242,6 +251,7 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: "Photo", name: "image", widget: "image"  }
                   - { label: "Intro", name: "content", widget: "text"  }
                     
+########################### Advantage #########################
           - label: "Advantage"
             name: "advantage"
             widget: "object"
@@ -281,6 +291,8 @@ collections: # A list of collections the CMS should be able to edit
             name: "testimonial"
             widget: "object"
             allow_add: false
+            media_folder: "{{media_folder}}/clients"
+            public_folder: "{{public_folder}}/clients"
             fields: 
               - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide Testimonial", default: true  }
               - { label: "Title", name: "title", widget: "string"  }
