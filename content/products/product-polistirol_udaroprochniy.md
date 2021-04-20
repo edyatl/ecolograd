@@ -14,7 +14,6 @@ images:
   - image: images/products/polistirol_udaroprochniy.png
   - image: images/products/polistirol_udaroprochniy01.png
   - image: images/products/polistirol_udaroprochniy02.png
-  - image: /images/products/grstch_1.png
 ---
 
 Полистирол ударопрочный экструзионный, дробленка цвет микс.
