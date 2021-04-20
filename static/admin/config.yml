@@ -83,6 +83,8 @@ collections: # A list of collections the CMS should be able to edit
             name: "material"
             widget: "object"
             allow_add: false
+            media_folder: "/{{media_folder}}/material"
+            public_folder: "{{public_folder}}/material"
             fields: 
               - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide materials", default: true  }
               - { label: "Title", name: "title", widget: "string"  }
@@ -139,7 +141,7 @@ collections: # A list of collections the CMS should be able to edit
             name: "testimonial"
             widget: "object"
             allow_add: false
-            media_folder: "{{media_folder}}/clients"
+            media_folder: "/{{media_folder}}/clients"
             public_folder: "{{public_folder}}/clients"
             fields: 
               - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide Testimonial", default: true  }
