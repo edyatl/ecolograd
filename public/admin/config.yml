@@ -8,168 +8,13 @@ public_folder: "/images"
 
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Posts" # Used in the UI, ie.: "New Post"
-    label_singular: "Post" # Used in the UI, ie: "New Post"
-    description: >
-      Добавление и редактирование в разделе Статьи.
-    folder: "content/blog" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    filter: {field: "cmsedit", value: true}
-    slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
-    media_folder: "{{media_folder}}/blog"
-    public_folder: "{{public_folder}}/blog"
-    fields: # The fields each document in this collection have
-      - { label: "File name", name: "fname", widget: "string"  }
-      - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
-      - { label: "Title", name: "title", widget: "string"  }
-      - { label: "Publish Date", name: "date", widget: "datetime"  }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false  }
-      - { label: "Description", name: "description", widget: "text"  }
-      - { label: "Photo", name: "image", widget: "image"  }
-      - { label: "Author", name: "author", widget: "string"  }
-      - { label: "Body", name: "body", widget: "markdown"  }
-
-
-  - name: "products" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Products" # Used in the UI, ie.: "New Post"
-    label_singular: "Product" # Used in the UI, ie: "New Post"
-    description: >
-      Добавление и редактирование в разделе Продукция.
-    folder: "content/products" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    filter: {field: "cmsedit", value: true}
-    slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
-    media_folder: "{{media_folder}}/products"
-    public_folder: "{{public_folder}}/products"
-    fields: # The fields each document in this collection have
-      - { label: "File name", name: "fname", widget: "string"  }
-      - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
-      - { label: "Title", name: "title", widget: "string"  }
-      - { label: "Publish Date", name: "date", widget: "datetime"  }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false  }
-      - { label: "Description", name: "description", widget: "text"  }
-      - { label: "Price", name: "price", widget: "string"  }
-      - { label: "PriceBefore", name: "priceBefore", widget: "string", required: false  }
-      - { label: "ShortDescription", name: "shortDescription", widget: "text"  }
-      - { label: "ProductID", name: "productID", widget: "number", value_type: "int"  }
-      - { label: "Type", name: "type", widget: "hidden", default: "products"  }
-      - label: "Cover Photos"
-        name: "images"
-        widget: "list"
-        fields: 
-          - {label: "Image", name: "image", widget: "image"}
-      - { label: "Body", name: "body", widget: "markdown"  }
-
-
-  - name: "faq" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "FAQ" # Used in the UI, ie.: "New Post"
-    description: >
-      Добавление и редактирование в разделе Вопрос-Ответ.
-    delete: false # Prevent users from deleting documents in this collection
-    files: 
-      - label: "FAQ Intro"
-        name: "faq_indx_pg"
-        file: "content/faq/_index.md"
-        description: "Title and intro of FAQ"
-        fields:
-          - { label: "Title", name: "title", widget: "string"  }
-          - { label: "Publish Date", name: "date", widget: "datetime"  }
-          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
-          - { label: "Description", name: "description", widget: "text"  }
-          - { label: "Body", name: "body", widget: "markdown"  }
-
-      - label: "FAQ Items"
-        name: "faq_data"
-        file: "data/faq.yml"
-        description: "List of FAQ items"
-        fields:
-          - label: "FAQ Data"
-            name: "faqItem"
-            widget: "list"
-            fields: 
-              - { label: "Question", name: "title", widget: "text"  }
-              - { label: "Answer", name: "content", widget: "text"  }
-
-
-  - name: "contacts" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Contacts" # Used in the UI, ie.: "New Post"
-    description: >
-      Редактирование в разделе Контакты.
-    delete: false # Prevent users from deleting documents in this collection
-    files: 
-      - label: "Conact page title"
-        name: "contact_indx_pg"
-        file: "content/contact/_index.md"
-        description: "Title of Contact page"
-        fields:
-          - { label: "Title", name: "title", widget: "string"  }
-          - { label: "Publish Date", name: "date", widget: "datetime"  }
-          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
-          - { label: "Description", name: "description", widget: "text"  }
-
-      - label: "Contact settings / Working time"
-        name: "contact_data"
-        file: "data/contact.yml"
-        description: "Contact settings and working time"
-        fields:
-          - label: "Contact settings"
-            name: "contact"
-            widget: "object"
-            allow_add: false
-            fields: 
-              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide contacts", default: true  }
-
-              - label: "Office"
-                name: "office"
-                widget: "object"
-                fields:
-                  - { label: "Office Title", name: "title", widget: "string"  }
-                  - { label: "Office Intro", name: "content", widget: "text"  }
-
-              - label: "Open"
-                name: "opennigHour"
-                widget: "object" 
-                fields:
-                  - { label: "Intro", name: "title", widget: "string"  }
-                  - label: "Working Time"
-                    name: "dayTimeList"
-                    widget: "list" 
-                    allow_add: false
-                    fields: 
-                      - { label: "Day", name: "dayTime", widget: "string"  }
-
-          - label: "Map widget"
-            name: "map"
-            widget: "object"
-            allow_add: false
-            fields: 
-              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide google map", default: true  }
-
-
-  - name: "requisites" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Requisites" # Used in the UI, ie.: "New Post"
-    description: >
-      Редактирование в разделе Реквизиты.
-    delete: false # Prevent users from deleting documents in this collection
-    files: 
-      - label: "Requisites page"
-        name: "requisites_indx_pg"
-        file: "content/requisites/_index.md"
-        description: "Requisites page contetnt"
-        fields:
-          - { label: "Title", name: "title", widget: "string"  }
-          - { label: "Publish Date", name: "date", widget: "datetime"  }
-          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
-          - { label: "Description", name: "description", widget: "text"  }
-          - { label: "Body", name: "body", widget: "markdown"  }
-
+################## Homepage Collection #######################
   - name: "homepage" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Homepage" # Used in the UI, ie.: "New Post"
     description: >
       Редактирование Главной страницы.
     delete: false # Prevent users from deleting documents in this collection
-    media_folder: "{{media_folder}}"
+    media_folder: "/{{media_folder}}"
     public_folder: "{{public_folder}}"
     files: 
       - label: "Homepage Blocks"
@@ -268,6 +113,7 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - { label: "Advantage Item", name: "listItem", widget: "string"  }
 
+######################## Promo Video ##########################
           - label: "Promo Video"
             name: "video"
             widget: "object"
@@ -279,6 +125,7 @@ collections: # A list of collections the CMS should be able to edit
               - { label: "Video Thumb", name: "videoThumb", widget: "image"  }
               - { label: "Video URL", name: "videoURL", widget: "string"  }
 
+######################## Products #############################
           - label: "Products"
             name: "products"
             widget: "object"
@@ -287,6 +134,7 @@ collections: # A list of collections the CMS should be able to edit
               - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide Products", default: true  }
               - { label: "Title", name: "title", widget: "string"  }
 
+########################## Testimonial ########################
           - label: "Testimonial"
             name: "testimonial"
             widget: "object"
@@ -306,3 +154,167 @@ collections: # A list of collections the CMS should be able to edit
                   - { label: "Designation", name: "designation", widget: "string"  }
                   - { label: "Intro", name: "content", widget: "text"  }
                   - { label: "Rating", name: "rating", widget: "string", hint: "rating star, one to five"  }
+
+
+################### Products Collection ######################
+  - name: "products" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Products" # Used in the UI, ie.: "New Post"
+    label_singular: "Product" # Used in the UI, ie: "New Post"
+    description: >
+      Добавление и редактирование в разделе Продукция.
+    folder: "content/products" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    filter: {field: "cmsedit", value: true}
+    slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
+    media_folder: "/{{media_folder}}/products"
+    public_folder: "{{public_folder}}/products"
+    fields: # The fields each document in this collection have
+      - { label: "File name", name: "fname", widget: "string"  }
+      - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
+      - { label: "Title", name: "title", widget: "string"  }
+      - { label: "Publish Date", name: "date", widget: "datetime"  }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+      - { label: "Description", name: "description", widget: "text"  }
+      - { label: "Price", name: "price", widget: "string"  }
+      - { label: "PriceBefore", name: "priceBefore", widget: "string", required: false  }
+      - { label: "ShortDescription", name: "shortDescription", widget: "text"  }
+      - { label: "ProductID", name: "productID", widget: "number", value_type: "int"  }
+      - { label: "Type", name: "type", widget: "hidden", default: "products"  }
+      - label: "Cover Photos"
+        name: "images"
+        widget: "list"
+        fields: 
+          - {label: "Image", name: "image", widget: "image"}
+      - { label: "Body", name: "body", widget: "markdown"  }
+
+
+###################### Posts Collection ######################
+  - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Posts" # Used in the UI, ie.: "New Post"
+    label_singular: "Post" # Used in the UI, ie: "New Post"
+    description: >
+      Добавление и редактирование в разделе Статьи.
+    folder: "content/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    filter: {field: "cmsedit", value: true}
+    slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
+    media_folder: "/{{media_folder}}/blog"
+    public_folder: "{{public_folder}}/blog"
+    fields: # The fields each document in this collection have
+      - { label: "File name", name: "fname", widget: "string"  }
+      - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
+      - { label: "Title", name: "title", widget: "string"  }
+      - { label: "Publish Date", name: "date", widget: "datetime"  }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+      - { label: "Description", name: "description", widget: "text"  }
+      - { label: "Photo", name: "image", widget: "image"  }
+      - { label: "Author", name: "author", widget: "string"  }
+      - { label: "Body", name: "body", widget: "markdown"  }
+
+
+######################## FAQ Collection ######################
+  - name: "faq" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "FAQ" # Used in the UI, ie.: "New Post"
+    description: >
+      Добавление и редактирование в разделе Вопрос-Ответ.
+    delete: false # Prevent users from deleting documents in this collection
+    files: 
+      - label: "FAQ Intro"
+        name: "faq_indx_pg"
+        file: "content/faq/_index.md"
+        description: "Title and intro of FAQ"
+        fields:
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
+          - { label: "Body", name: "body", widget: "markdown"  }
+
+      - label: "FAQ Items"
+        name: "faq_data"
+        file: "data/faq.yml"
+        description: "List of FAQ items"
+        fields:
+          - label: "FAQ Data"
+            name: "faqItem"
+            widget: "list"
+            fields: 
+              - { label: "Question", name: "title", widget: "text"  }
+              - { label: "Answer", name: "content", widget: "text"  }
+
+
+################### Contacts Collection ######################
+  - name: "contacts" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Contacts" # Used in the UI, ie.: "New Post"
+    description: >
+      Редактирование в разделе Контакты.
+    delete: false # Prevent users from deleting documents in this collection
+    files: 
+      - label: "Conact page title"
+        name: "contact_indx_pg"
+        file: "content/contact/_index.md"
+        description: "Title of Contact page"
+        fields:
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
+
+      - label: "Contact settings / Working time"
+        name: "contact_data"
+        file: "data/contact.yml"
+        description: "Contact settings and working time"
+        fields:
+          - label: "Contact settings"
+            name: "contact"
+            widget: "object"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide contacts", default: true  }
+
+              - label: "Office"
+                name: "office"
+                widget: "object"
+                fields:
+                  - { label: "Office Title", name: "title", widget: "string"  }
+                  - { label: "Office Intro", name: "content", widget: "text"  }
+
+              - label: "Open"
+                name: "opennigHour"
+                widget: "object" 
+                fields:
+                  - { label: "Intro", name: "title", widget: "string"  }
+                  - label: "Working Time"
+                    name: "dayTimeList"
+                    widget: "list" 
+                    allow_add: false
+                    fields: 
+                      - { label: "Day", name: "dayTime", widget: "string"  }
+
+          - label: "Map widget"
+            name: "map"
+            widget: "object"
+            allow_add: false
+            fields: 
+              - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide google map", default: true  }
+
+
+################# Requisites Collection ######################
+  - name: "requisites" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Requisites" # Used in the UI, ie.: "New Post"
+    description: >
+      Редактирование в разделе Реквизиты.
+    delete: false # Prevent users from deleting documents in this collection
+    files: 
+      - label: "Requisites page"
+        name: "requisites_indx_pg"
+        file: "content/requisites/_index.md"
+        description: "Requisites page contetnt"
+        fields:
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
+          - { label: "Body", name: "body", widget: "markdown"  }
+
+
