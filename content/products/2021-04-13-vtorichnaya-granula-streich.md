@@ -11,9 +11,9 @@ shortDescription: Вторичная гранула стрейч, цвет пр�
 productID: 16
 type: products
 images:
-  - image: /images/uploads/grstch_4.png
-  - image: /images/uploads/grstch_3.png
-  - image: /images/uploads/grstch_1.png
+  - image: /images/products/grstch_4.png
+  - image: /images/products/grstch_3.png
+  - image: /images/products/grstch_1.png
 ---
 Вторичная гранула стрейч (агломерат стрэйч) обладает отличным качеством, используется для производства пленки, для упаковки индивидуальной, групповой и транспортной. 
 
