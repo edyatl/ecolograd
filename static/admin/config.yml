@@ -413,7 +413,7 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "object"
                 fields:
                   - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide preloader", default: true  }
-                  - { label: "Preloader Images", name: "preloader", widget: "string", hint: "use .png, .svg or .gif format"  }
+                  - { label: "Preloader Images", name: "preloader", widget: "string", hint: "use .png, .svg or .gif format", required: false  }
 
                 # Product Rating
                 # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
