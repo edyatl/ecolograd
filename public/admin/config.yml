@@ -341,25 +341,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Summary Length", name: "summaryLength", widget: "string"  }
           - { label: "Paginate", name: "paginate", widget: "string"  }
           - { label: "Disqus Short name", name: "disqusShortname", widget: "string"  }
-########################## Plugins ###########################
-          - name: "params"
-            label: "Parameters"
-            widget: "object"
-            fields:
-              - name: "plugins"
-                label: "Plugins"
-                widget: "object"
-                fields:
-                  - name: "css"
-                    label: "CSS"
-                    widget: "list"
-                    fields:
-                      - { label: "Link", name: "link", widget: "string"  }
-                  - name: "js"
-                    label: "JS"
-                    widget: "list"
-                    fields:
-                      - { label: "Link", name: "link", widget: "string"  }
 
 ######################### navigation #########################
           - name: "menu"
@@ -409,6 +390,22 @@ collections: # A list of collections the CMS should be able to edit
               # Snipcart Credentials
               - { label: "Snipcart API Key", name: "snipcartApiKey", widget: "string"  }
               - { label: "Currency Symbol", name: "currencySymbol", widget: "string"  }
+
+########################## Plugins ###########################
+              - name: "plugins"
+                label: "Plugins"
+                widget: "object"
+                fields:
+                  - name: "css"
+                    label: "CSS"
+                    widget: "list"
+                    fields:
+                      - { label: "Link", name: "link", widget: "string"  }
+                  - name: "js"
+                    label: "JS"
+                    widget: "list"
+                    fields:
+                      - { label: "Link", name: "link", widget: "string"  }
 
                 # Preloader
               - name: "preloader"
