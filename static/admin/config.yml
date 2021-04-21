@@ -221,7 +221,7 @@ collections: # A list of collections the CMS should be able to edit
       Добавление и редактирование в разделе Вопрос-Ответ.
     delete: false # Prevent users from deleting documents in this collection
     files: 
-      - label: "FAQ Intro"
+      - label: "FAQ page title and Intro"
         name: "faq_indx_pg"
         file: "content/faq/_index.md"
         description: "Title and intro of FAQ"
@@ -439,4 +439,48 @@ collections: # A list of collections the CMS should be able to edit
                 widget: "object"
                 fields:
                   - { label: "Form Action", name: "formAction", widget: "string", hint: "contact form works with formspree.io"  }
+
+########################## Indexes ###########################
+      - label: "Products page title"
+        name: "products_indx_pg"
+        file: "content/products/_index.md"
+        description: "Title of Products page"
+        fields:
+          - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: false  }
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
+
+      - label: "Posts page title"
+        name: "blog_indx_pg"
+        file: "content/blog/_index.md"
+        description: "Title of Posts page"
+        fields:
+          - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: false  }
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
+
+      - label: "FAQ page title and Intro"
+        name: "faq_indx_pg"
+        file: "content/faq/_index.md"
+        description: "Title and intro of FAQ"
+        fields:
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
+          - { label: "Body", name: "body", widget: "markdown"  }
+
+      - label: "Conact page title"
+        name: "contact_indx_pg"
+        file: "content/contact/_index.md"
+        description: "Title of Contact page"
+        fields:
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
 
