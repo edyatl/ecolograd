@@ -320,3 +320,126 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Body", name: "body", widget: "markdown"  }
 
 
+################## Global Settings Collection ################
+  - name: "Global Settings" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "settings" # Used in the UI, ie.: "New Post"
+    description: >
+      Редактирование Общих настроек сайта.
+    delete: false # Prevent users from deleting documents in this collection
+    files: 
+      - label: "Configuration"
+        name: "configToml"
+        file: "config.toml"
+        extension: "toml"
+        description: "Configuration parameters"
+        fields:
+#################### default configuration ###################
+          - { label: "Base URL", name: "baseURL", widget: "string"  }
+          - { label: "Language", name: "languageCode", widget: "string"  }
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Theme", name: "theme", widget: "string"  }
+          - { label: "Summary Length", name: "summaryLength", widget: "string"  }
+          - { label: "Paginate", name: "paginate", widget: "string"  }
+          - { label: "Disqus Short name", name: "disqusShortname", widget: "string"  }
+########################## Plugins ###########################
+          - name: "params"
+            label: "Parameters"
+            widget: "object"
+            fields:
+              - name: "plugins"
+                label: "Plugins"
+                widget: "object"
+                fields:
+                  - name: "css"
+                    label: "CSS"
+                    widget: "list"
+                    fields:
+                      - { label: "Link", name: "link", widget: "string"  }
+                  - name: "js"
+                    label: "JS"
+                    widget: "list"
+                    fields:
+                      - { label: "Link", name: "link", widget: "string"  }
+
+######################### navigation #########################
+          - name: "menu"
+            label: "Menu"
+            widget: "object"
+            fields:
+              - name: "main"
+                label: "Main"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string"  }
+                  - { label: "URL address", name: "URL", widget: "string"  }
+                  - { label: "Weight", name: "weight", widget: "number"  }
+
+  ############# footer menu #############
+              - name: "footer"
+                label: "Footer"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string"  }
+                  - { label: "URL address", name: "URL", widget: "string"  }
+                  - { label: "Weight", name: "weight", widget: "number"  }
+
+#################### default parameters ######################
+          - name: "params"
+            label: "Params"
+            widget: "object"
+            fields:
+              - { label: "Logo", name: "logo", widget: "image"  }
+              - { label: "Home", name: "home", widget: "string"  }
+              # Meta data
+              - { label: "Description", name: "description", widget: "string"  }
+              - { label: "Author", name: "author", widget: "string"  }
+              # google map
+              - { label: "Gmap API", name: "gmapAPI", widget: "string"  }
+              - { label: "Map Latitude", name: "mapLatitude", widget: "string"  }
+              - { label: "Map Longitude", name: "mapLongitude", widget: "string"  }
+              - { label: "Map Marker", name: "mapMarker", widget: "string"  }
+              # Google Analitycs
+              - { label: "Google Analitycs ID", name: "googleAnalitycsID", widget: "string"  }
+              # Contact Information
+              - { label: "Mobile", name: "mobile", widget: "string"  }
+              - { label: "Email", name: "email", widget: "string"  }
+              - { label: "Location", name: "location", widget: "text"  }
+              # copyright
+              - { label: "Copyright", name: "copyright", widget: "text"  }
+              # Snipcart Credentials
+              - { label: "Snipcart API Key", name: "snipcartApiKey", widget: "string"  }
+              - { label: "Currency Symbol", name: "currencySymbol", widget: "string"  }
+
+                # Preloader
+              - name: "preloader"
+                label: "Preloader"
+                widget: "object"
+                fields:
+                  - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide preloader", default: true  }
+                  - { label: "Preloader Images", name: "preloader", widget: "string", hint: "use .png, .svg or .gif format"  }
+
+                # Product Rating
+                # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
+              - name: "rating"
+                label: "Rating"
+                widget: "object"
+                fields:
+                  - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide preloader", default: true  }
+                  - { label: "Website ID", name: "websiteID", widget: "string"  }
+                  - { label: "Public Key", name: "publicKey", widget: "string"  }
+
+                # Social Site
+              - name: "social"
+                label: "Social"
+                widget: "list"
+                fields:
+                  - { label: "Icon", name: "icon", widget: "string"  }
+                  - { label: "Link", name: "link", widget: "string"  }
+
+                # Contact Form
+              - name: "contact"
+                label: "Contact"
+                widget: "object"
+                fields:
+                  - { label: "Form Action", name: "formAction", widget: "string", hint: "contact form works with formspree.io"  }
+
