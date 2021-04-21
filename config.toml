@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "ru_RU"
+languageCode = "ru"
 title = "ecolograd.ru"
 theme = "hargo"
 summaryLength = "20"
