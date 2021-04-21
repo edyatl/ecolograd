@@ -380,7 +380,7 @@ collections: # A list of collections the CMS should be able to edit
               - { label: "Map Longitude", name: "mapLongitude", widget: "string"  }
               - { label: "Map Marker", name: "mapMarker", widget: "image"  }
               # Google Analitycs
-              - { label: "Google Analitycs ID", name: "googleAnalitycsID", widget: "string"  }
+              - { label: "Google Analitycs ID", name: "googleAnalitycsID", widget: "string", required: false  }
               # Contact Information
               - { label: "Mobile", name: "mobile", widget: "string"  }
               - { label: "Email", name: "email", widget: "string"  }
