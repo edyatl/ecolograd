@@ -321,8 +321,8 @@ collections: # A list of collections the CMS should be able to edit
 
 
 ################## Global Settings Collection ################
-  - name: "Global Settings" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "settings" # Used in the UI, ie.: "New Post"
+  - name: "settings" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Global Settings" # Used in the UI, ie.: "New Post"
     description: >
       Редактирование Общих настроек сайта.
     delete: false # Prevent users from deleting documents in this collection
