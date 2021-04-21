@@ -119,12 +119,10 @@ currencySymbol = "₽"
 
   # Social Site
   [[params.social]]
-  #icon = "ti-youtube"
   icon = "ti-youtube"
   link = "#"
 
   [[params.social]]
-  #icon = "ti-instagram"
   icon = "ti-instagram"
   link = "#"
 
