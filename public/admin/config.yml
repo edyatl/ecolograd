@@ -378,7 +378,7 @@ collections: # A list of collections the CMS should be able to edit
               - { label: "Gmap API", name: "gmapAPI", widget: "string"  }
               - { label: "Map Latitude", name: "mapLatitude", widget: "string"  }
               - { label: "Map Longitude", name: "mapLongitude", widget: "string"  }
-              - { label: "Map Marker", name: "mapMarker", widget: "string"  }
+              - { label: "Map Marker", name: "mapMarker", widget: "image"  }
               # Google Analitycs
               - { label: "Google Analitycs ID", name: "googleAnalitycsID", widget: "string"  }
               # Contact Information
