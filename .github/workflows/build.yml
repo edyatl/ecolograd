@@ -24,7 +24,7 @@ jobs:
       - name: Build
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
-        run: hugo --cleanDestinationDir --minify
+        run: hugo --cleanDestinationDir 
                                                               
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
