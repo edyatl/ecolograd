@@ -208,6 +208,7 @@
       <div class="col-lg-4 col-md-5">
         <h5 class="font-weight-medium mb-4">Форма обратной связи</h5>
         <form action="http://localhost:5000/feedback/create" method="POST">
+          <input type="hidden" class="form-control mb-2" id="currentURL" name="currentURL" value="">
           <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Имя">
           <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Email">
           <textarea name="message" id="message" class="form-control mb-2" placeholder="Сообщение"></textarea>
@@ -300,5 +301,10 @@
       
   }
 </script>
+<!-- Current URL JS -->
+<script>
+    document.getElementById('currentURL').value = window.location.href;
+</script>
+
 </body>
 </html>
