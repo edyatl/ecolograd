@@ -141,5 +141,27 @@ ga('send', 'pageview');
 {{ "<!-- Current URL JS -->" | safeHTML }}
 <script>
     document.getElementById('currentURL').value = window.location.href;
+    
+    let container = document.querySelector("#alert-container");
+
+    function getParameterByName(name) {
+        var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+        return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+                
+    }
+
+    window.onload = function(){
+        if (getParameterByName("fs") == 1){
+            container.innerHTML =
+                `<div class="alert alert-success alert-dismissible fade show" role="alert" id="successAlert">
+                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                <strong>Удачно!</strong> Данные формы отправлены.
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                </div>`
+                ;
+        }
+    }
 </script>
 
