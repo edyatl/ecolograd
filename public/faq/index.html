@@ -136,7 +136,7 @@
         <div class="top-100">
         <h3 class="mb-4">Задать вопрос</h3>
         <form action="https://3e4922d8aaf2ec.localhost.run/feedback/create" method="POST">
-          <input type="hidden" class="form-control mb-2" id="currentURL" name="currentURL" value="">
+          <input type="hidden" class="form-control mb-2" id="currentURL-0" name="currentURL" value="">
           <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Имя">
           <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Email">
           <textarea name="message" id="message" class="form-control mb-2" placeholder="Сообщение"></textarea>
@@ -406,6 +406,7 @@
 <!-- Current URL JS -->
 <script>
     document.getElementById('currentURL').value = window.location.href;
+    document.getElementById('currentURL-0').value = window.location.href;
     
     let container = document.querySelector("#alert-container");
 
