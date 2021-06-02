@@ -56,6 +56,11 @@
       data-marker="{{ with site.Params.mapMarker }} {{ . | absURL }} {{ end }}" data-marker-name="{{ site.Title }}"></div>
   </div>
 </section>
+{{ "<!-- Current URL-0 JS -->" | safeHTML }}
+<script>
+    document.getElementById('currentURL-0').value = window.location.href;
+</script>
+
 {{ end }}
 
 {{ partial "cta.html" . }}
