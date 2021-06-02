@@ -112,7 +112,7 @@ icon = "fab fa-vk"
 link = "#"
 
 [params.preloader]
-enable = true
+enable = false
 preloader = ""
 
 [params.rating]
