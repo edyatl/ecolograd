@@ -71,7 +71,7 @@ description = "Переработка полимерных материалов"
 home = "Главная"
 
 [params.contact]
-formAction = "https://a4f58dffa28c27.localhost.run/feedback/create"
+formAction = "https://f25d380d532a32.localhost.run/feedback/create"
 
 [params.plugins]
 
