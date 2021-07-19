@@ -71,7 +71,7 @@ description = "Переработка полимерных материалов"
 home = "Главная"
 
 [params.contact]
-formAction = "https://437a8fc0964876.localhost.run/feedback/create"
+formAction = "https://app.ecolograd.ru/feedback/create"
 
 [params.plugins]
 
