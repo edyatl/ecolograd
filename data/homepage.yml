@@ -57,7 +57,7 @@ material:
     - title: ПВХ
       content: "Отходы производства и демонтаж жёсткого ПВХ: оконный профиль,
         подоконники, трубы, лист, панели, сайдинг и т.д."
-      image: /images/material/indexpvh.png
+      image: /images/material/logo-res-3.png
 advantage:
   enable: true
   title: Преимущества работы с нами
