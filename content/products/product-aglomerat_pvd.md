@@ -11,9 +11,6 @@ shortDescription: Агломерат ПВД из отходов складско
 productID: "11"
 type: products
 images:
-  - image: images/products/aglomerat_pvd01.png
-  - image: images/products/aglomerat_pvd02.png
-  - image: images/products/aglomerat_pvd03.png
   - image: /images/products/aglomerat-c.png
 ---
 Агломерат ПВД собсвенного производства из отходов складского хранения (плёнка стрейч). Материал отличного качества. Безнал с НДС. Возможны различные формы оплаты. Санкт-Петербург.
