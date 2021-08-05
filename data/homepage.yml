@@ -90,7 +90,7 @@ video:
   videoThumb: images/video-thumb.jpg
   videoURL: https://www.youtube.com/embed/wf4F2-9UXUo
 products:
-  enable: true
+  enable: false
   title: Каталог продукции
 testimonial:
   enable: false
