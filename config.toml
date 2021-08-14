@@ -28,6 +28,11 @@ name = "Контакты"
 URL = "contact"
 weight = 4
 
+[[menu.main]]
+name = "Закупаем"
+URL = "purchase"
+weight = 3
+
 [[menu.footer]]
 name = "Продукция"
 URL = "products"
@@ -52,6 +57,11 @@ weight = 4
 name = "Контакты"
 URL = "contact"
 weight = 5
+
+[[menu.footer]]
+name = "Закупаем"
+URL = "purchase"
+weight = 6
 
 [params]
 mobile = "+7 812 385 81 83"
