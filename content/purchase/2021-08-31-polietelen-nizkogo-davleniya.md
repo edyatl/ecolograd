@@ -1,5 +1,5 @@
 ---
-fname: polietelen-nizkogo-davleniya
+fname: polietilen-nizkogo-davleniya
 cmsedit: true
 title: ПОЛИЭТИЛЕН НИЗКОГО ДАВЛЕНИЯ
 date: 2021-08-31T13:15:41.478Z
