@@ -190,6 +190,38 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Body", name: "body", widget: "markdown"  }
 
 
+################### Purchase Collection ######################
+  - name: "purchase" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Purchase" # Used in the UI, ie.: "New Post"
+    label_singular: "Material" # Used in the UI, ie: "New Post"
+    description: >
+      Добавление и редактирование в разделе Продукция.
+    folder: "content/purchase" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    filter: {field: "cmsedit", value: true}
+    slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
+    media_folder: "/{{media_folder}}/purchase"
+    public_folder: "{{public_folder}}/purchase"
+    fields: # The fields each document in this collection have
+      - { label: "File name", name: "fname", widget: "string"  }
+      - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
+      - { label: "Title", name: "title", widget: "string"  }
+      - { label: "Publish Date", name: "date", widget: "datetime"  }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+      - { label: "Description", name: "description", widget: "text"  }
+      - { label: "Price", name: "price", widget: "string"  }
+      - { label: "PriceBefore", name: "priceBefore", widget: "string", required: false  }
+      - { label: "ShortDescription", name: "shortDescription", widget: "text"  }
+      - { label: "MaterialID", name: "materialID", widget: "number", value_type: "int"  }
+      - { label: "Type", name: "type", widget: "hidden", default: "products"  }
+      - label: "Cover Photos"
+        name: "images"
+        widget: "list"
+        fields: 
+          - {label: "Image", name: "image", widget: "image"}
+      - { label: "Body", name: "body", widget: "markdown"  }
+
+
 ###################### Posts Collection ######################
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Posts" # Used in the UI, ie.: "New Post"
@@ -445,6 +477,17 @@ collections: # A list of collections the CMS should be able to edit
         name: "products_indx_pg"
         file: "content/products/_index.md"
         description: "Title of Products page"
+        fields:
+          - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: false  }
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
+
+      - label: "Purchase page title"
+        name: "purchase_indx_pg"
+        file: "content/purchase/_index.md"
+        description: "Title of Purchase page"
         fields:
           - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: false  }
           - { label: "Title", name: "title", widget: "string"  }
