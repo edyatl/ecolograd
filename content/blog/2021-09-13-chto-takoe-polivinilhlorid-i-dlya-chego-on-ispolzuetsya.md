@@ -3,7 +3,7 @@ fname: chto-takoe-polivinilhlorid-i-dlya-chego-on-ispolzuetsya
 cmsedit: true
 title: Что такое поливинилхлорид (ПВХ) и для чего он используется?
 date: 2021-09-13T12:08:50.279Z
-draft: true
+draft: false
 description: >-
   Что такое поливинилхлорид (ПВХ) и для чего он используется?
 
