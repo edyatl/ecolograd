@@ -9,8 +9,8 @@ banner:
   image: /images/collage_plastics05.png
   button:
     enable: true
-    label: Продукция
-    link: products
+    label: Закупаем
+    link: purchase
   video:
     enable: true
     videoURL: https://www.youtube.com/embed/wf4F2-9UXUo
@@ -30,8 +30,8 @@ cta:
   image: images/cta.png
   overlayImage: images/cta-overlay.png
   button:
-    label: Продукция
-    link: products
+    label: Закупаем
+    link: purchase
 material:
   enable: true
   title: Мы принимаем на переработку
