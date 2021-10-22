@@ -89,7 +89,7 @@ video:
     рециклинга.  Этот способ помогает сохранить экологию и поддерживает
     российского производителя.
   videoThumb: /images/video_preview.png
-  videoURL: https://youtu.be/OWbSWIBXjmQ
+  videoURL: https://www.youtube.com/embed/OWbSWIBXjmQ
 products:
   enable: false
   title: Каталог продукции
