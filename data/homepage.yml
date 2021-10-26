@@ -66,7 +66,7 @@ material:
     - title: ПОЛИКАРБОНАТ
       content: "монолитный поликарбонат: отходы производства в виде обрезков или
         сливов, лом корпусных деталей, демонтированное остекление и т.д."
-      image: /images/material/logo-res-pc.png
+      image: /images/material/purchase_polikarbonat.png
 advantage:
   enable: true
   title: Преимущества работы с нами
