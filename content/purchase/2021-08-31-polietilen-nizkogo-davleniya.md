@@ -10,6 +10,6 @@ shortDescription: ПНД плёнка, ящики, контейнеры, тру�
 materialID: 1
 type: products
 images:
-  - image: /images/purchase/polietilen.png
+  - image: /images/purchase/purchase_pnd2.png
 ---
 ПНД плёнка, ящики, контейнеры, трубы и т.д.
