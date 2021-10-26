@@ -40,7 +40,7 @@ material:
     ,брак производства "
   materialItem:
     - title: ПОЛИЭТИЛЕН НИЗКОГО ДАВЛЕНИЯ
-      image: /images/material/logo-res-2.png
+      image: /images/material/purchase_pnd.png
       content: ПНД плёнка, ящики, контейнеры, трубы и т.д.
     - title: ПОЛИВИНИЛХЛОРИД
       image: /images/material/logo-res-3.png
