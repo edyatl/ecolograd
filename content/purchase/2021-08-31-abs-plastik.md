@@ -12,6 +12,6 @@ shortDescription: корпуса электротехнических издел
 materialID: 6
 type: products
 images:
-  - image: /images/purchase/purchase_abs.png
+  - image: /images/purchase/purchase_abs2.png
 ---
 корпуса электротехнических изделий, обрезки листовых материалов, литники, сливы и т.д.
