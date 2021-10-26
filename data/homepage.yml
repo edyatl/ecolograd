@@ -43,7 +43,7 @@ material:
       image: /images/material/purchase_pnd.png
       content: ПНД плёнка, ящики, контейнеры, трубы и т.д.
     - title: ПОЛИВИНИЛХЛОРИД
-      image: /images/material/logo-res-3.png
+      image: /images/material/purchase_pvh.png
       content: "отходы производства и демонтаж жёсткого ПВХ: оконный профиль,
         подоконники, трубы, лист, панели, сайдинг и т.д."
     - title: ПОЛИЭТИЛЕН ВЫСОКОГО ДАВЛЕНИЯ
