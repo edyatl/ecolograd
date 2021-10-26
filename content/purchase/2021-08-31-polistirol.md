@@ -12,6 +12,6 @@ shortDescription: строительная фурнитура, плафоны, �
 materialID: 5
 type: products
 images:
-  - image: /images/purchase/polietilen.png
+  - image: /images/purchase/purchase_polistirol.png
 ---
 строительная фурнитура, плафоны, полки, обрезки листовых материалов, литники, сливы и т.д.
