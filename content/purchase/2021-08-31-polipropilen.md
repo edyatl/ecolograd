@@ -14,6 +14,6 @@ shortDescription: плёнки прозрачные и с флексопечат
 materialID: 4
 type: products
 images:
-  - image: /images/purchase/polietilen.png
+  - image: /images/purchase/purchase_polipropilen2.png
 ---
 плёнки прозрачные и с флексопечатью, спанбонд (нетканный материал), мешки, бигбэги, трубы, поддоны/паллеты, емкости для хранения, литники, сливы и т.д.
