@@ -41,11 +41,13 @@ material:
   materialItem:
     - title: ПОЛИЭТИЛЕН НИЗКОГО ДАВЛЕНИЯ
       image: /images/material/purchase_pnd3.png
-      content: ПНД плёнка, ящики, контейнеры, **трубы** и т.д.
+      content: ПНД плёнка, ящики, контейнеры, трубы.
+        [Подробнее...](https://ecolograd-ru.netlify.app/purchase/2021-08-31-polietilen-nizkogo-davleniya/)
     - title: ПОЛИВИНИЛХЛОРИД
       image: /images/material/purchase_pvh3.png
       content: "отходы производства и демонтаж жёсткого ПВХ: оконный профиль,
-        подоконники, трубы, лист, панели, сайдинг и т.д."
+        подоконники, трубы, лист, панели, сайдинг.
+        [Подробнее...](/purchase/2021-08-31-polivinilhlorid/)"
     - title: ПОЛИЭТИЛЕН ВЫСОКОГО ДАВЛЕНИЯ
       image: /images/material/purchase_pvd3.png
       content: ПВД плёнка, стрейч-плёнка, мешки из-под первичных пластиков, ящики,
