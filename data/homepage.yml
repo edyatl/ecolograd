@@ -41,8 +41,8 @@ material:
   materialItem:
     - title: ПОЛИЭТИЛЕН НИЗКОГО ДАВЛЕНИЯ
       image: /images/material/purchase_pnd3.png
-      content: ПНД плёнка, ящики, контейнеры, трубы.
-        {:.text-color}[Подробнее...](/purchase/2021-08-31-polietilen-nizkogo-davleniya/)
+      content: "ПНД плёнка, ящики, контейнеры, трубы.
+        [Подробнее...](/purchase/2021-08-31-polietilen-nizkogo-davleniya/) "
     - title: ПОЛИВИНИЛХЛОРИД
       image: /images/material/purchase_pvh3.png
       content: "отходы производства и демонтаж жёсткого ПВХ: оконный профиль,
