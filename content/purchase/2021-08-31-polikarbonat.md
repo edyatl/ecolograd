@@ -13,5 +13,7 @@ materialID: 7
 type: products
 images:
   - image: /images/purchase/purchase_polikarbonat2.png
+  - image: /images/purchase/purchase_polikarbonat41.png
+  - image: /images/purchase/purchase_polikarbonat42.png
 ---
 монолитный поликарбонат: отходы производства в виде обрезков или сливов, лом корпусных деталей, демонтированное остекление и т.д.
