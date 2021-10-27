@@ -40,33 +40,33 @@ material:
     ,брак производства "
   materialItem:
     - title: ПОЛИЭТИЛЕН НИЗКОГО ДАВЛЕНИЯ
-      image: /images/material/purchase_pnd.png
+      image: /images/material/purchase_pnd3.png
       content: ПНД плёнка, ящики, контейнеры, трубы и т.д.
     - title: ПОЛИВИНИЛХЛОРИД
-      image: /images/material/purchase_pvh.png
+      image: /images/material/purchase_pvh3.png
       content: "отходы производства и демонтаж жёсткого ПВХ: оконный профиль,
         подоконники, трубы, лист, панели, сайдинг и т.д."
     - title: ПОЛИЭТИЛЕН ВЫСОКОГО ДАВЛЕНИЯ
-      image: /images/material/purchase_pvd.png
+      image: /images/material/purchase_pvd3.png
       content: ПВД плёнка, стрейч-плёнка, мешки из-под первичных пластиков, ящики,
         контейнеры и т.д.
     - title: ПОЛИПРОПИЛЕН
-      image: /images/material/purchase_polipropilen.png
+      image: /images/material/purchase_polipropilen3.png
       content: плёнки прозрачные и с флексопечатью, спанбонд (нетканный материал),
         мешки, бигбэги, трубы, поддоны/паллеты, емкости для хранения, литники,
         сливы и т.д.
     - title: ПОЛИСТИРОЛ
       content: строительная фурнитура, плафоны, полки, обрезки листовых материалов,
         литники, сливы и т.д.
-      image: /images/material/purchase_polistirol.png
+      image: /images/material/purchase_polistirol3.png
     - title: АБС-ПЛАСТИК
       content: корпуса электротехнических изделий, обрезки листовых материалов,
         литники, сливы и т.д.
-      image: /images/material/purchase_abs.png
+      image: /images/material/purchase_abs3.png
     - title: ПОЛИКАРБОНАТ
       content: "монолитный поликарбонат: отходы производства в виде обрезков или
         сливов, лом корпусных деталей, демонтированное остекление и т.д."
-      image: /images/material/purchase_polikarbonat.png
+      image: /images/material/purchase_polikarbonat3.png
 advantage:
   enable: true
   title: Преимущества работы с нами
