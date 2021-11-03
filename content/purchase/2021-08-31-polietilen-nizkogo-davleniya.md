@@ -11,5 +11,6 @@ materialID: 1
 type: products
 images:
   - image: /images/purchase/purchase_pnd2.png
+  - image: /images/purchase/purchase_kanistra_pnd.png
 ---
 ПНД плёнка, ящики, контейнеры, трубы и т.д.
