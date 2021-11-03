@@ -13,5 +13,6 @@ materialID: 6
 type: products
 images:
   - image: /images/purchase/purchase_abs2.png
+  - image: /images/purchase/purchase_katushka_abs.png
 ---
 корпуса электротехнических изделий, обрезки листовых материалов, литники, сливы и т.д.
