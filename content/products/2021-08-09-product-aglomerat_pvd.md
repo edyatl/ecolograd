@@ -11,6 +11,6 @@ shortDescription: Агломерат ПВД натуральный чистый.
 productID: 1
 type: products
 images:
-  - image: /images/products/5226757844278294511_121.jpg
+  - image: /images/products/1.jpg
 ---
 Агломерат ПВД натуральный
