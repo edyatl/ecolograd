@@ -15,5 +15,9 @@ materialID: 4
 type: products
 images:
   - image: /images/purchase/purchase_polipropilen2.png
+  - image: /images/purchase/лист-демонтаж-брак-обрезки-полипропилен.jpg
+  - image: /images/purchase/пп-ведро.jpg
+  - image: /images/purchase/пп-поддон-1-.jpg
+  - image: /images/purchase/пп-литники-брак-производства.jpg
 ---
 плёнки прозрачные и с флексопечатью, спанбонд (нетканный материал), мешки, бигбэги, трубы, поддоны/паллеты, емкости для хранения, литники, сливы и т.д.
