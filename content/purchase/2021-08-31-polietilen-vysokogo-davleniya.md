@@ -16,5 +16,6 @@ images:
   - image: /images/purchase/z1.png
   - image: /images/purchase/z2.jpg
   - image: /images/purchase/z3.jpg
+  - image: /images/purchase/z4.jpg
 ---
 ПВД плёнка, стрейч-плёнка, мешки из-под первичных пластиков, ящики, контейнеры, трубы и т.д.
