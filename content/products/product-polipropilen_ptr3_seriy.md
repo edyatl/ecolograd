@@ -3,7 +3,7 @@ fname: product-polipropilen_ptr3_seriy
 cmsedit: true
 title: Полипропилен ПТР 3 серый
 date: 2021-04-01T16:01:59+03:00
-draft: false
+draft: true
 description: Полипропилен дробленка, ПТР 3, цвет серый.
 price: "52.00"
 priceBefore: "60.00"
