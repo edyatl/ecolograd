@@ -114,3 +114,13 @@ testimonial:
         обязательств, по оплатам,  качеству материала, и логистике. Приятно
         работать с профессионалами!
       rating: five
+    - name: Big Boy
+      content: wow such plastic
+      designation: Гендир ООО "Перегрыз пластика"
+      image: /images/clients/123123.png
+      rating: five
+    - image: /images/clients/123123123.png
+      name: Mr.Rich
+      designation: ОАО Газпром
+      content: Я б погрыз
+      rating: five
