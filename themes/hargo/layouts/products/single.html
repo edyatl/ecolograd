@@ -25,7 +25,9 @@
           {{ if .Params.PriceBefore }}
           <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
           {{ end }}
+          {{ if .Params.Price }}
           <span class="lead text-primary font-weight-medium">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
+          {{ end }}
         </div>
         <h5>Краткое описание</h5>
         <p>{{ .Params.ShortDescription | markdownify }}</p>
