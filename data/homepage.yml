@@ -102,7 +102,7 @@ products:
   enable: false
   title: Каталог продукции
 testimonial:
-  enable: false
+  enable: true
   title: Что о нас говорят наши клиенты
   testimonialItem:
     - name: Андрей Перервин
