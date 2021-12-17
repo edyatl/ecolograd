@@ -195,7 +195,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Purchase" # Used in the UI, ie.: "New Post"
     label_singular: "Material" # Used in the UI, ie: "New Post"
     description: >
-      Добавление и редактирование в разделе Продукция.
+      Добавление и редактирование в разделе Закупаем.
     folder: "content/purchase" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     filter: {field: "cmsedit", value: true}
@@ -213,7 +213,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "PriceBefore", name: "priceBefore", widget: "string", required: false  }
       - { label: "ShortDescription", name: "shortDescription", widget: "text"  }
       - { label: "MaterialID", name: "materialID", widget: "number", value_type: "int"  }
-      - { label: "Type", name: "type", widget: "hidden", default: "products"  }
+      - { label: "Type", name: "type", widget: "hidden", default: "purchase"  }
       - label: "Cover Photos"
         name: "images"
         widget: "list"
