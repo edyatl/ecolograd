@@ -3,7 +3,7 @@ fname: bisphenol-A vreden
 cmsedit: true
 title: "Компонент пластика признали вредным для эндокринной системы "
 date: 2021-12-09T10:50:31.192Z
-draft: false
+draft: true
 description: бисфенол А
 image: https://phototass3.cdnvideo.ru/width/1020_b9261fa1/tass/m2/uploads/i/20170620/4514270.png
 author: ТАСС
