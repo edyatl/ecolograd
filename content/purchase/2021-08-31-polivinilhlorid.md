@@ -10,7 +10,7 @@ price: "50"
 shortDescription: "отходы производства и демонтаж жёсткого ПВХ: оконный профиль,
   подоконники, трубы, лист, панели, сайдинг и т.д."
 materialID: 2
-type: products
+type: purchase
 images:
   - image: /images/purchase/purchase_pvh2.png
 ---

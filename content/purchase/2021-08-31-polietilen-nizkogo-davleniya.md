@@ -8,7 +8,7 @@ description: ПНД плёнка, ящики, контейнеры, трубы �
 price: "50"
 shortDescription: ПНД плёнка, ящики, контейнеры, трубы и т.д.
 materialID: 1
-type: products
+type: purchase
 images:
   - image: /images/purchase/purchase_pnd2.png
   - image: /images/purchase/purchase_kanistra_pnd.png

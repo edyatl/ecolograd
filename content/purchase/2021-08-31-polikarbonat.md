@@ -10,7 +10,7 @@ price: "50"
 shortDescription: "монолитный поликарбонат: отходы производства в виде обрезков
   или сливов, лом корпусных деталей, демонтированное остекление и т.д."
 materialID: 7
-type: products
+type: purchase
 images:
   - image: /images/purchase/purchase_polikarbonat2.png
   - image: /images/purchase/purchase_polikarbonat41.png

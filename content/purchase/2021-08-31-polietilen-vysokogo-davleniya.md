@@ -10,7 +10,7 @@ price: "0"
 shortDescription: ПВД плёнка, стрейч-плёнка, мешки из-под первичных пластиков,
   ящики, контейнеры, трубы и т.д.
 materialID: 3
-type: products
+type: purchase
 images:
   - image: /images/purchase/purchase_pvd2.png
   - image: /images/purchase/z1.png

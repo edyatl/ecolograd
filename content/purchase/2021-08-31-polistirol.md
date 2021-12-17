@@ -10,7 +10,7 @@ price: "50"
 shortDescription: строительная фурнитура, плафоны, полки, обрезки листовых
   материалов, литники, сливы и т.д.
 materialID: 5
-type: products
+type: purchase
 images:
   - image: /images/purchase/purchase_polistirol2.png
   - image: /images/purchase/purchase_polistirol-othody-proizvodstva.jpg

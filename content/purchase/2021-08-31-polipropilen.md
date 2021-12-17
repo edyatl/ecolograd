@@ -12,7 +12,7 @@ shortDescription: плёнки прозрачные и с флексопечат
   материал), мешки, бигбэги, трубы, поддоны/паллеты, емкости для хранения,
   литники, сливы и т.д.
 materialID: 4
-type: products
+type: purchase
 images:
   - image: /images/purchase/purchase_polipropilen2.png
   - image: /images/purchase/purchase_pp_list_demontaj_obrezki.jpg

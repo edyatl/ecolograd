@@ -10,7 +10,7 @@ price: "0"
 shortDescription: корпуса электротехнических изделий, обрезки листовых
   материалов, литники, сливы и т.д.
 materialID: 6
-type: products
+type: purchase
 images:
   - image: /images/purchase/purchase_abs2.png
   - image: /images/purchase/purchase_katushka_abs.png
