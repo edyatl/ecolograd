@@ -5,7 +5,7 @@ title: Остановим загрязнение пластиком
 date: 2021-12-16T08:47:19.460Z
 draft: false
 description: Статья о мерах и возможностях по уменьшению загрязнении природы пластиком.
-image: /images/blog/1626288171116366060.png
+image: /images/blog/pererabotka-plastika.png
 author: Dmitryi
 ---
 <!--StartFragment-->
@@ -69,7 +69,7 @@ author: Dmitryi
 
 <!--EndFragment-->
 
-![microfiber pollution](/images/blog/eco.png "microfiber pollution")
+![microfiber pollution](/images/blog/microfibers-pollution-mikrovolokna-zagryaznenie.png "microfiber pollution")
 
  <!--StartFragment-->
 
