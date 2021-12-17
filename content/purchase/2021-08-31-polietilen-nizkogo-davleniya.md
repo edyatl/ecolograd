@@ -12,6 +12,6 @@ type: products
 images:
   - image: /images/purchase/purchase_pnd2.png
   - image: /images/purchase/purchase_kanistra_pnd.png
-  - image: /images/purchase/20211206_124401_result.jpg
+  - image: /images/purchase/kupim_pnd_extruzionnyai_listovoi.jpg
 ---
 ПНД плёнка, ящики, контейнеры, трубы и т.д.
