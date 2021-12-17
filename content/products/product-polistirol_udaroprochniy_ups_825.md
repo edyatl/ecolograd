@@ -5,8 +5,8 @@ title: Полистирол ударопрочный УПС 825
 date: 2021-04-01T15:56:52+03:00
 draft: false
 description: Полистирол ударопрочный УПС 825, вторичка. Дробленка.
-price: "69.00"
-priceBefore: "75.00"
+price: ""
+priceBefore: ""
 shortDescription: Полистирол ударопрочный УПС 825, вторичка. Дробленка.
 productID: "15"
 type: products
