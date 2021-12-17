@@ -5,8 +5,8 @@ title: Полипропилен ПТР 6 чёрный
 date: 2021-04-01T16:03:24+03:00
 draft: false
 description: Полипропилен литьевой дробленка, цвет черный, ПТР 6.
-price: "50.00"
-priceBefore: "58.00"
+price: ""
+priceBefore: ""
 shortDescription: Полипропилен литьевой дробленка, цвет черный, ПТР 6.
 productID: "13"
 type: products
