@@ -14,7 +14,7 @@ type: products
 images:
   - image: /images/purchase/purchase_abs2.png
   - image: /images/purchase/purchase_katushka_abs.png
-  - image: /images/purchase/абс-литники.jpg
-  - image: /images/purchase/абс-литьевой-брак-производства.jpg
+  - image: /images/purchase/abs-litnik.jpg
+  - image: /images/purchase/abs_lit-evoi_brak_proizvodstva.jpg
 ---
 корпуса электротехнических изделий, обрезки листовых материалов, литники, сливы, брак производства и т.д.
