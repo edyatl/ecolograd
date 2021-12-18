@@ -197,12 +197,6 @@
                 </div>
             </div>
         </div>
-        <script charset="utf-8">
-            $('#callBackModal').on('show.bs.modal', function (event) {
-              var modal = $(this)
-              modal.find('#currentURL-1').val(window.location.href)
-            })
-        </script>
         
       </div>
       <div class="col-12 mt-5">
@@ -378,6 +372,11 @@
 <!-- Current URL JS -->
 <script>
     document.getElementById('currentURL').value = window.location.href;
+
+    $('#callBackModal').on('show.bs.modal', function (event) {
+        var modal = $(this)
+        modal.find('#currentURL-1').val(window.location.href)
+    })
     
     let container = document.querySelector("#alert-container");
 
