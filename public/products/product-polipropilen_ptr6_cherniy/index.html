@@ -21,6 +21,14 @@
   
 
   
+  
+  <!-- Snipcart -->
+  <link rel="preconnect" href="https://app.snipcart.com/">
+  <link rel="preconnect" href="https://cdn.snipcart.com/">
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css">
+  <script async src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js"></script>
+  
+  
 
   <!-- Main Stylesheet -->
   
@@ -99,6 +107,8 @@
         </ul>
       </div>
     
+      <button class="cart snipcart-summary"><a href="" class="snipcart-checkout text-dark"><i class="ti-shopping-cart"></i><span class="badge badge-primary snipcart-items-count"></span></a></button>
+    
     </nav>
   </div>
 </header>
@@ -152,6 +162,12 @@
         </div>
         <h5>Краткое описание</h5>
         <p>Полипропилен литьевой дробленка, цвет черный, ПТР 6.</p>
+        
+        <button class="snipcart-add-item btn btn-primary" data-item-id="13"
+          data-item-name="Полипропилен ПТР 6 чёрный"  data-item-image="/images/products/polipropilen_ptr6_cherniy.png"
+           data-item-price="" data-item-url="/products/product-polipropilen_ptr6_cherniy/" data-item-description="Полипропилен литьевой дробленка, цвет черный, ПТР 6.">
+          В корзину
+        </button>
         
       </div>
       <div class="col-12 mt-5">
@@ -282,6 +298,11 @@
     </div>
   </div>
 </footer>
+
+
+
+<!-- Snipcart -->
+<div id="snipcart" data-api-key="M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5" hidden></div>
 
 
 

@@ -21,6 +21,14 @@
   
 
   
+  
+  <!-- Snipcart -->
+  <link rel="preconnect" href="https://app.snipcart.com/">
+  <link rel="preconnect" href="https://cdn.snipcart.com/">
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css">
+  <script async src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js"></script>
+  
+  
 
   <!-- Main Stylesheet -->
   
@@ -99,6 +107,8 @@
         </ul>
       </div>
     
+      <button class="cart snipcart-summary"><a href="" class="snipcart-checkout text-dark"><i class="ti-shopping-cart"></i><span class="badge badge-primary snipcart-items-count"></span></a></button>
+    
     </nav>
   </div>
 </header>
@@ -144,6 +154,12 @@
         </div>
         <h5>Краткое описание</h5>
         <p>Полипропилен и полиэтилен</p>
+        
+        <button class="snipcart-add-item btn btn-primary" data-item-id="17"
+          data-item-name="ПП&#43;ПЭ"  data-item-image="/images/products/pepp_black.png"
+           data-item-price="" data-item-url="/products/2021-12-16-pp-pe/" data-item-description="Полипропилен и полиэтилен">
+          В корзину
+        </button>
         
       </div>
       <div class="col-12 mt-5">
@@ -274,6 +290,11 @@
     </div>
   </div>
 </footer>
+
+
+
+<!-- Snipcart -->
+<div id="snipcart" data-api-key="M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5" hidden></div>
 
 
 
