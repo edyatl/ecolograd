@@ -13,12 +13,12 @@
   <link rel="stylesheet" href="{{ .link | absURL }}">
   {{ end }}
 
-  {{ if site.Params.cartwidget }}
   {{ with site.Params.snipcartApiKey }}
   {{ "<!-- Snipcart -->" | safeHTML }}
-  <link rel="preconnect" href="https://app.snipcart.com/">
   <link rel="preconnect" href="https://cdn.snipcart.com/">
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css">
+  {{ if site.Params.cartwidget }}
+  <link rel="preconnect" href="https://app.snipcart.com/">
   <script async src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js"></script>
   {{ end }}
   {{ end }}
