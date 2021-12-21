@@ -51,9 +51,11 @@
   </div>
 </footer>
 
+{{ if site.Params.cartwidget }}
 {{ with site.Params.snipcartApiKey }}
 {{ "<!-- Snipcart -->" | safeHTML }}
 <div id="snipcart" data-api-key="{{ . }}" hidden></div>
+{{ end }}
 {{ end }}
 
 {{ "<!-- Google Maps API -->" | safeHTML }}
