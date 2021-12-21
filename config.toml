@@ -65,7 +65,7 @@ weight = 6
 
 [params]
 mobile = "+7 812 385 81 83"
-cartwidget = true
+cartwidget = false
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
 copyright = "| Copyright &copy; 2021 [AlfaPlast LLC](https://ecolograd.ru) All Rights Reserved | Design [@edyatl](https://github.com/edyatl) |"
