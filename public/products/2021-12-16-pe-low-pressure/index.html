@@ -25,6 +25,9 @@
   <link rel="preconnect" href="https://cdn.snipcart.com/">
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.css">
   
+  <link rel="preconnect" href="https://app.snipcart.com/">
+  <script async src="https://cdn.snipcart.com/themes/v3.0.28/default/snipcart.js"></script>
+  
   
 
   <!-- Main Stylesheet -->
@@ -107,6 +110,8 @@
       <button type="button" class="cart" data-toggle="modal" data-target="#callBackModal"><a href="#" class="text-dark"><i class="fas fa-phone-alt"></i><span class="badge badge-primary">1</span></a></button>
       
     
+      <button class="cart snipcart-summary"><a href="" class="snipcart-checkout text-dark"><i class="ti-shopping-cart"></i><span class="badge badge-primary snipcart-items-count"></span></a></button>
+    
     </nav>
   </div>
 </header>
@@ -152,6 +157,12 @@
         </div>
         <h5>Краткое описание</h5>
         <p>ПНД листовой экструзионный</p>
+        
+        <button class="snipcart-add-item btn btn-primary" data-item-id="16"
+          data-item-name="ПНД листовой экструзионный"  data-item-image="/images/products/pnd_blue.png"
+           data-item-price="" data-item-url="/products/2021-12-16-pe-low-pressure/" data-item-description="ПНД листовой экструзионный">
+          В корзину
+        </button>
         
       </div>
       <div class="col-12 mt-5">
@@ -312,6 +323,11 @@
     </div>
 </div>
 
+
+
+
+<!-- Snipcart -->
+<div id="snipcart" data-api-key="M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5" hidden></div>
 
 
 
