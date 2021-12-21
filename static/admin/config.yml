@@ -420,6 +420,7 @@ collections: # A list of collections the CMS should be able to edit
               # copyright
               - { label: "Copyright", name: "copyright", widget: "markdown"  }
               # Snipcart Credentials
+              - { label: "Enable shoping cart", name: "cartwidget", widget: "boolean", hint: "show/hide shoping cart", default: true  }
               - { label: "Snipcart API Key", name: "snipcartApiKey", widget: "string"  }
               - { label: "Currency Symbol", name: "currencySymbol", widget: "string"  }
 
