@@ -14,5 +14,5 @@ images:
   - image: /images/purchase/purchase_kanistra_pnd.png
   - image: /images/purchase/kupim_pnd_extruzionnyai_listovoi.jpg
 ---
-Купим б/у ПНД плёнку, ящики, контейнеры, трубы и т.д.\
+Купим б/у **ПНД** плёнку, ящики, контейнеры, трубы и т.д.\
 Своя логистика, без выходных.
