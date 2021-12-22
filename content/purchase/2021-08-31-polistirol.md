@@ -19,4 +19,6 @@ images:
   - image: /images/purchase/purchase_demontazh-polistirol.jpg
   - image: /images/purchase/purchase_vyrubka-vysechka-obrezki-polistirol-listovoj.jpg
 ---
-строительная фурнитура, плафоны, полки, обрезки листовых материалов, литники, сливы и т.д.
+Закупаем на постоянной основе **полистирол**: строительную фурнитуру, плафоны, полки, обрезки листовых материалов, литники, сливы и т.д.
+
+Самовывоз и своевременная оплата.
