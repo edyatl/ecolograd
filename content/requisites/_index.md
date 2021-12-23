@@ -1,5 +1,5 @@
 ---
-title: ecolograd.ru - Реквизиты
+title: Реквизиты
 date: 2021-04-19T13:36:05.190Z
 draft: false
 description: this is a meta description
