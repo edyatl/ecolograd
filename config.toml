@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "ru"
-title = "ecolograd.ru"
+title = "ecolograd.ru - приём пластика на переработку"
 theme = "hargo"
 summaryLength = "20"
 paginate = 10
@@ -78,7 +78,7 @@ mapLongitude = "30.428555980500033"
 location = "Санкт-Петербург, г. Пушкин, Новодеревенская улица, дом 4, литер А, помещение 2-Н, офис 1"
 mapMarker = "images/marker.png"
 email = "info@ecolograd.ru"
-description = "Переработка полимерных материалов"
+description = "Переработка полимерных материалов. Прием и вывоз пластика в СПб по высоким ценам."
 home = "Главная"
 
 [params.contact]
