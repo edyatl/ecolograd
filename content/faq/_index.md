@@ -2,7 +2,7 @@
 title: Вопрос-Ответ
 date: 2021-04-19T13:37:06.683Z
 draft: false
-description: this is a meta description
+description: Виды пластика, цены на пластик, приём пластика в СПБ.
 ---
 ### Часто задаваемые вопросы
 
