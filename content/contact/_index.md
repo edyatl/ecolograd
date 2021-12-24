@@ -2,5 +2,5 @@
 title: Контакты
 date: 2021-04-19T13:36:38.222Z
 draft: false
-description: this is a meta description
+description: Приём пластика в СПБ. Отличные цены и логистика. Контакты.
 ---
