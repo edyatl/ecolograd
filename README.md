@@ -1,3 +1,3 @@
-# eclograd.ru project
+# ecolograd.ru project
 
 by @edyatl
