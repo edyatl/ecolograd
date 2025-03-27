@@ -38,42 +38,39 @@ material:
   subtitle: "различные виды полимеров: обрезки, лом пластмасс, вырубка, высечка,
     брак изделий, литники, отливы"
   materialItem:
-    - title: ПОЛИЭТИЛЕН НИЗКОГО ДАВЛЕНИЯ
-      image: /images/material/purchase_pnd3.png
-      content: "ПНД плёнка, ящики, контейнеры, трубы.
-        [Подробнее...](/purchase/2021-08-31-polietilen-nizkogo-davleniya/) "
-    - title: ПОЛИВИНИЛХЛОРИД
-      image: /images/material/purchase_pvh3.png
-      content: "отходы производства и демонтаж жёсткого ПВХ: оконный профиль,
-        подоконники, трубы, лист, панели, сайдинг.
-        [Подробнее...](/purchase/2021-08-31-polivinilhlorid/)"
-    - title: ПОЛИЭТИЛЕН ВЫСОКОГО ДАВЛЕНИЯ
-      image: /images/material/purchase_pvd3.png
-      content: ПВД плёнка, стрейч-плёнка, мешки из-под первичных пластиков, ящики,
-        контейнеры.
-        [Подробнее...](/purchase/2021-08-31-polietilen-vysokogo-davleniya/)
-    - title: ПОЛИПРОПИЛЕН
-      image: /images/material/purchase_polipropilen3.png
-      content: плёнки прозрачные и с флексопечатью, спанбонд (нетканный материал),
-        мешки, бигбэги, трубы, поддоны/паллеты, емкости для хранения, литники,
-        сливы. [Подробнее...](/purchase/2021-08-31-polipropilen/)
     - title: ПОЛИСТИРОЛ
       content: строительная фурнитура, плафоны, полки, обрезки листовых материалов,
         литники, сливы. [Подробнее...](/purchase/2021-08-31-polistirol/)
       image: /images/material/purchase_polistirol3.png
-    - title: АБС-ПЛАСТИК
-      content: корпуса электротехнических изделий, обрезки листовых материалов,
-        литники, сливы. [Подробнее...](/purchase/2021-08-31-abs-plastik/)
-      image: /images/material/purchase_abs3.png
-    - title: ПОЛИКАРБОНАТ
-      content: "монолитный поликарбонат: отходы производства в виде обрезков или
-        сливов, лом корпусных деталей, демонтированное остекление.
-        [Подробнее...](/purchase/2021-08-31-polikarbonat/)"
-      image: /images/material/purchase_polikarbonat3.png
     - title: АКРИЛ
       image: /images/material/purchase_acrylic3.png
-      content: чистые производственные отходы, неликвиды, складские остатки , обрезь
-        акрила экструзионного. [Подробнее...](/purchase/2021-11-12-akril/)
+      content: чистые производственные отходы, неликвиды, складские остатки , обрезь,
+        вырубка, высечка акрила экструзионного.
+        [Подробнее...](/purchase/2021-11-12-akril/)
+    - title: ПОЛИКАРБОНАТ
+      content: "монолитный поликарбонат: отходы производства в виде обрезков или
+        сливов, лом корпусных деталей, демонтированное остекление (кроме
+        сотового поликарбоната).
+        [Подробнее...](/purchase/2021-08-31-polikarbonat/)"
+      image: /images/material/purchase_polikarbonat3.png
+    - title: ПОЛИЭТИЛЕН НИЗКОГО ДАВЛЕНИЯ
+      image: /images/material/purchase_pnd3.png
+      content: "Отходы производства ПНД пленки, ящики, контейнеры, трубы.
+        [Подробнее...](/purchase/2021-08-31-polietilen-nizkogo-davleniya/) "
+    - title: ПОЛИВИНИЛХЛОРИД
+      image: /images/material/purchase_pvh3.png
+      content: "отходы производства и демонтаж жёсткого ПВХ: оконный профиль,
+        подоконники, трубы, лист, панели, сайдинг, жесткая пленка (высечка).
+        [Подробнее...](/purchase/2021-08-31-polivinilhlorid/)"
+    - title: ПОЛИПРОПИЛЕН
+      image: /images/material/purchase_polipropilen3.png
+      content: трубы, поддоны/паллеты, емкости для хранения (кроме овощного ящика),
+        литники, сливы. [Подробнее...](/purchase/2021-08-31-polipropilen/)
+    - title: АБС-ПЛАСТИК
+      content: брак производства корпусов электротехнических изделий (корпус
+        электрической розетки, роутера и т.п.), обрезки листовых материалов,
+        литники, сливы. [Подробнее...](/purchase/2021-08-31-abs-plastik/)
+      image: /images/material/purchase_abs3.png
 advantage:
   enable: true
   title: Преимущества работы с нами
