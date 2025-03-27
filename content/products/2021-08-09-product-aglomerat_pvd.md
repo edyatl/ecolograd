@@ -3,7 +3,7 @@ fname: product-aglomerat_pvd
 cmsedit: true
 title: Агломерат ПВД прозрачный
 date: 2021-08-09T15:29:01.411Z
-draft: true
+draft: false
 description: Агломерат ПВД натуральный. Исходник чистая ПВД пленка.
 price: ""
 priceBefore: ""
