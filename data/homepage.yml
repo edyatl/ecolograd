@@ -42,6 +42,11 @@ material:
       content: строительная фурнитура, плафоны, полки, обрезки листовых материалов,
         литники, сливы. [Подробнее...](/purchase/2021-08-31-polistirol/)
       image: /images/material/purchase_polistirol3.png
+    - title: АБС-ПЛАСТИК
+      content: брак производства корпусов электротехнических изделий (корпус
+        электрической розетки, роутера и т.п.), обрезки листовых материалов,
+        литники, сливы. [Подробнее...](/purchase/2021-08-31-abs-plastik/)
+      image: /images/material/purchase_abs3.png
     - title: АКРИЛ
       image: /images/material/purchase_acrylic3.png
       content: чистые производственные отходы, неликвиды, складские остатки , обрезь,
@@ -57,20 +62,15 @@ material:
       image: /images/material/purchase_pnd3.png
       content: "Отходы производства ПНД пленки, ящики, контейнеры, трубы.
         [Подробнее...](/purchase/2021-08-31-polietilen-nizkogo-davleniya/) "
+    - title: ПОЛИПРОПИЛЕН
+      image: /images/material/purchase_polipropilen3.png
+      content: трубы, поддоны/паллеты, емкости для хранения (кроме овощного ящика),
+        литники, сливы. [Подробнее...](/purchase/2021-08-31-polipropilen/)
     - title: ПОЛИВИНИЛХЛОРИД
       image: /images/material/purchase_pvh3.png
       content: "отходы производства и демонтаж жёсткого ПВХ: оконный профиль,
         подоконники, трубы, лист, панели, сайдинг, жесткая пленка (высечка).
         [Подробнее...](/purchase/2021-08-31-polivinilhlorid/)"
-    - title: ПОЛИПРОПИЛЕН
-      image: /images/material/purchase_polipropilen3.png
-      content: трубы, поддоны/паллеты, емкости для хранения (кроме овощного ящика),
-        литники, сливы. [Подробнее...](/purchase/2021-08-31-polipropilen/)
-    - title: АБС-ПЛАСТИК
-      content: брак производства корпусов электротехнических изделий (корпус
-        электрической розетки, роутера и т.п.), обрезки листовых материалов,
-        литники, сливы. [Подробнее...](/purchase/2021-08-31-abs-plastik/)
-      image: /images/material/purchase_abs3.png
 advantage:
   enable: true
   title: Преимущества работы с нами
