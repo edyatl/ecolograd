@@ -5,7 +5,7 @@ title: "Компонент пластика признали вредным дл
 date: 2021-12-09T10:50:31.192Z
 draft: false
 description: бисфенол А
-image: https://phototass3.cdnvideo.ru/width/1020_b9261fa1/tass/m2/uploads/i/20170620/4514270.png
+image: /images/blog/ploh_plast_2025-04-19_16-19-08.png
 author: ТАСС
 ---
 <!--StartFragment-->
