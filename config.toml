@@ -111,14 +111,6 @@ link = "plugins/slick/slick.min.js"
 link = "plugins/google-map/gmap.js"
 
 [[params.social]]
-icon = "ti-youtube"
-link = "https://youtube.com/channel/UCEaGbWvFRefgY-UO_YjXYVw"
-
-[[params.social]]
-icon = "ti-instagram"
-link = "https://www.instagram.com/ecolograd/"
-
-[[params.social]]
 icon = "fab fa-vk"
 link = "https://vk.com/ecolograd"
 
