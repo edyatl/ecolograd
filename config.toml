@@ -33,6 +33,11 @@ name = "Контакты"
 URL = "contact"
 weight = 5
 
+[[menu.main]]
+name = "Политика обработки персональных данных"
+URL = "privacy"
+weight = 6
+
 [[menu.footer]]
 name = "Продукция"
 URL = "products"
@@ -62,6 +67,11 @@ weight = 5
 name = "Контакты"
 URL = "contact"
 weight = 6
+
+[[menu.footer]]
+name = "Политика обработки персональных данных"
+URL = "privacy"
+weight = 7
 
 [params]
 mobile = "+7 812 385 81 83"
