@@ -333,6 +333,29 @@ collections: # A list of collections the CMS should be able to edit
               - { label: "Enable", name: "enable", widget: "boolean", hint: "show/hide google map", default: true  }
 
 
+######################## Legal Collection ######################
+  - name: "legal" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Legal" # Used in the UI, ie.: "New Post"
+    label_singular: "Document" # Used in the UI, ie: "New Post"
+    description: >
+      Добавление и редактирование в разделе Юридические документы.
+    folder: "content/legal" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    filter: {field: "cmsedit", value: true}
+    slug: "{{year}}-{{month}}-{{day}}-{{fname}}" # Name of post file in folder
+    media_folder: "/{{media_folder}}/legal"
+    public_folder: "{{public_folder}}/legal"
+    fields: # The fields each document in this collection have
+      - { label: "File name", name: "fname", widget: "string"  }
+      - { label: "CMSedit", name: "cmsedit", widget: "hidden", default: true  }
+      - { label: "Title", name: "title", widget: "string"  }
+      - { label: "Publish Date", name: "date", widget: "datetime"  }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+      - { label: "Description", name: "description", widget: "text"  }
+      - { label: "Original", name: "original", widget: "file"  }
+      - { label: "Body", name: "body", widget: "markdown"  }
+
+
 ################# Requisites Collection ######################
   - name: "requisites" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Requisites" # Used in the UI, ie.: "New Post"
@@ -527,4 +550,15 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Publish Date", name: "date", widget: "datetime"  }
           - { label: "Draft", name: "draft", widget: "boolean", default: false  }
           - { label: "Description", name: "description", widget: "text"  }
+
+      - label: "Legal page title and Intro"
+        name: "legal_indx_pg"
+        file: "content/legal/_index.md"
+        description: "Title and intro of Legal"
+        fields:
+          - { label: "Title", name: "title", widget: "string"  }
+          - { label: "Publish Date", name: "date", widget: "datetime"  }
+          - { label: "Draft", name: "draft", widget: "boolean", default: false  }
+          - { label: "Description", name: "description", widget: "text"  }
+          - { label: "Body", name: "body", widget: "markdown"  }
 
