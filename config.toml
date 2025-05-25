@@ -63,6 +63,11 @@ name = "Контакты"
 URL = "contact"
 weight = 6
 
+[[menu.footer]]
+name = "Юридические документы"
+URL = "legal"
+weight = 7
+
 [params]
 mobile = "+7 812 385 81 83"
 cartwidget = false
