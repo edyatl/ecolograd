@@ -14,15 +14,26 @@
       <div class="col-lg-4">
         <div class="top-100">
         <h3 class="mb-4">Задать вопрос</h3>
-        <form class="needs-validation" action="{{ site.Params.contact.formAction }}" method="POST">
-          <input type="hidden" class="form-control mb-2" id="currentURL-0" name="currentURL" value="">
-          <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Имя" required>
-          <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Email" required>
-          <input type="phone" class="form-control mb-2" id="phone" name="phone" placeholder="+7 (000) 000 00 00" required>
-          <textarea name="message" id="message" class="form-control mb-2" placeholder="Сообщение"></textarea>
-          <button type="submit" value="send" class="btn btn-block btn-outline-primary rounded">Отправить</button>
+        <form class="needs-validation" action="{{ site.Params.contact.formAction }}" method="POST" id="faqForm">
+          <input type="hidden" class="form-control mb-2" id="faq-currentURL" name="currentURL" value="">
+          <input type="text" class="form-control mb-2" id="faq-name" name="name" placeholder="Имя" required>
+          <input type="email" class="form-control mb-2" id="faq-email" name="email" placeholder="Email" required>
+          <input type="phone" class="form-control mb-2" id="faq-phone" name="phone" placeholder="+7 (000) 000 00 00" required>
+          <textarea name="message" id="faq-message" class="form-control mb-2" placeholder="Сообщение"></textarea>
+
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="faq-terms" checked>
+            <label class="form-check-label small" for="faq-terms">
+              Я согласен с <a href="/legal" target="_blank">условиями обработки данных</a>
+            </label>
+          </div>
+
+          <button type="submit" value="send" class="btn btn-block btn-outline-primary rounded" id="faq-submit">
+            Отправить
+          </button>
         </form>
-      </div></div>
+        </div>
+      </div>
       {{ with site.Data.faq}}
       <div class="col-lg-7 offset-lg-1">
         <div id="accordion" class="mt-5">
@@ -50,7 +61,19 @@
 </section>
 {{ "<!-- Current URL-0 JS -->" | safeHTML }}
 <script>
-    document.getElementById('currentURL-0').value = window.location.href;
+  // Set current URL
+  document.getElementById('faq-currentURL').value = window.location.href;
+
+  // Handle terms checkbox logic
+  const faqTermsCheckbox = document.getElementById('faq-terms');
+  const faqSubmitButton = document.getElementById('faq-submit');
+
+  faqTermsCheckbox.addEventListener('change', function () {
+    faqSubmitButton.disabled = !this.checked;
+  });
+
+  // Initial state
+  faqSubmitButton.disabled = !faqTermsCheckbox.checked;
 </script>
     
 {{ end }}

@@ -33,15 +33,24 @@
         {{ end }}
       </div>
       <div class="col-lg-4">
-        <h3 class="
-        mb-4">Напишите нам</h3>
-        <form class="needs-validation" action="{{ site.Params.contact.formAction }}" method="POST">
-          <input type="hidden" class="form-control mb-2" id="currentURL-0" name="currentURL" value="">
-          <input type="text" class="form-control mb-2" id="name" name="name" placeholder="Имя" required>
-          <input type="email" class="form-control mb-2" id="email" name="email" placeholder="Email" required>
-          <input type="phone" class="form-control mb-2" id="phone" name="phone" placeholder="+7 (000) 000 00 00" required>
-          <textarea name="message" id="message" class="form-control mb-2" placeholder="Сообщение"></textarea>
-          <button type="submit" value="send" class="btn btn-block btn-outline-primary rounded">Отправить</button>
+        <h3 class="mb-4">Напишите нам</h3>
+        <form class="needs-validation" action="{{ site.Params.contact.formAction }}" method="POST" id="contactForm">
+          <input type="hidden" class="form-control mb-2" id="contact-currentURL" name="currentURL" value="">
+          <input type="text" class="form-control mb-2" id="contact-name" name="name" placeholder="Имя" required>
+          <input type="email" class="form-control mb-2" id="contact-email" name="email" placeholder="Email" required>
+          <input type="phone" class="form-control mb-2" id="contact-phone" name="phone" placeholder="+7 (000) 000 00 00" required>
+          <textarea name="message" id="contact-message" class="form-control mb-2" placeholder="Сообщение"></textarea>
+
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="contact-terms" checked>
+            <label class="form-check-label small" for="contact-terms">
+              Я согласен с <a href="/legal" target="_blank">условиями обработки данных</a>
+            </label>
+          </div>
+
+          <button type="submit" value="send" class="btn btn-block btn-outline-primary rounded" id="contact-submit">
+            Отправить
+          </button>
         </form>
       </div>
     </div>
@@ -59,7 +68,19 @@
 </section>
 {{ "<!-- Current URL-0 JS -->" | safeHTML }}
 <script>
-    document.getElementById('currentURL-0').value = window.location.href;
+  // Set current URL
+  document.getElementById('contact-currentURL').value = window.location.href;
+
+  // Handle terms checkbox logic
+  const contactTermsCheckbox = document.getElementById('contact-terms');
+  const contactSubmitButton = document.getElementById('contact-submit');
+
+  contactTermsCheckbox.addEventListener('change', function () {
+    contactSubmitButton.disabled = !this.checked;
+  });
+
+  // Initial state
+  contactSubmitButton.disabled = !contactTermsCheckbox.checked;
 </script>
 
 {{ end }}
