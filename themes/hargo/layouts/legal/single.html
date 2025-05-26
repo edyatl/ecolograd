@@ -10,7 +10,7 @@
             <li class="list-inline-item"><i class="ti-calendar text-primary mr-2"></i>
               {{ .PublishDate.Format "02.01.2006" }}</li>
           </ul>
-          <a href="{{ .Params.File | absURL }}" download class="btn btn-primary">
+          <a href="{{ .Params.Original | absURL }}" download class="btn btn-sm btn-outline-primary">
               <i class="ti ti-download"></i> Загрузить PDF
           </a>
           <div class="content">
