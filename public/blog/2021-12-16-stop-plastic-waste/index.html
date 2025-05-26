@@ -306,6 +306,12 @@
                     <input type="hidden" class="form-control mb-2" id="email" name="email" value="noreply@ecolograd.ru">
                     <input type="phone" class="form-control mb-2" id="phone" name="phone" placeholder="+7 (000) 000 00 00" required>
                     <input type="hidden" class="form-control mb-2" id="message" name="message" value="Запрос на обратный звонок с сайта.">
+                    <div class="form-check mb-3">
+                      <input class="form-check-input" type="checkbox" value="1" id="agree-callback" name="agree" checked required>
+                      <label class="form-check-label" for="agree-callback">
+                        Я соглашаюсь с <a href="/legal/" target="_blank">условиями обработки данных</a>
+                      </label>
+                    </div>
                     
                 </form>
             </div>
@@ -420,6 +426,20 @@ ga('send', 'pageview');
 
     agreeCheckbox.addEventListener("change", toggleSubmit);
     toggleSubmit(); 
+  });
+</script>
+<script>
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    const agreeCb = document.getElementById("agree-callback");
+    const modalSubmit = document.querySelector("#callBackModal button[type='submit']");
+
+    function toggleModalSubmit() {
+      modalSubmit.disabled = !agreeCb.checked;
+    }
+
+    agreeCb.addEventListener("change", toggleModalSubmit);
+    toggleModalSubmit(); 
   });
 </script>
 
